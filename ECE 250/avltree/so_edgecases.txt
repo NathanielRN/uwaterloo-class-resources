@@ -1,0 +1,153 @@
+//Insert cases
+// Case 1a
+new
+insert 20 1
+insert 4 1
+height 1
+insert 15 1
+height 1
+front 4
+back 20
+loop 4 15 20
+delete
+// Case 2a
+new
+insert 20 1
+insert 4 1
+height 1
+insert 26 1
+insert 3 1
+insert 9 1
+height 2
+insert 15 1 // Cause rotations
+height 2
+front 3
+back 26
+loop 3 4 9 15 20 26
+delete
+// Case 3a
+new
+insert 20 1
+insert 4 1
+height 1
+insert 26 1
+insert 3 1
+insert 9 1
+height 2
+insert 21 1
+insert 30 1
+insert 2 1
+insert 7 1
+insert 11 1
+height 3
+insert 15 1 // Cause rotations
+height 3
+front 2
+back 30
+loop 2 3 4 7 9 11 15 20 21 26 30
+delete
+// Case 1b
+new
+insert 20 1
+insert 4 1
+height 1
+insert 8 1 // Cause rotations
+height 1
+front 4
+back 20
+loop 4 8 20
+delete
+// Case 2b
+new
+insert 20 1
+insert 4 1
+height 1
+insert 26 1
+insert 3 1
+insert 9 1
+insert 8 1 // Cause rotations
+height 2
+front 3
+back 26
+loop 3 4 8 9 20 26
+delete
+// Case 3b
+new
+insert 20 1
+insert 4 1
+height 1
+insert 26 1
+insert 3 1
+insert 9 1
+insert 21 1
+insert 30 1
+insert 2 1
+insert 7 1
+insert 11 1
+insert 8 1 // Cause rotations
+height 3
+front 2
+back 30
+loop 2 3 4 7 8 9 11 20 21 26 30
+delete
+// Erase cases
+// Case A
+new
+insert 2 1
+insert 1 1
+insert 4 1
+insert 3 1
+insert 5 1
+height 2
+erase 1 1
+height 2
+front 2
+back 5
+loop 2 3 4 5
+delete
+// Case B
+new
+insert 6 1
+insert 2 1
+insert 9 1
+insert 1 1
+insert 4 1
+insert 8 1
+insert 11 1
+insert 3 1
+insert 5 1
+insert 7 1
+insert 10 1
+insert 12 1
+insert 13 1
+height 4
+erase 1 1
+height 4
+front 2
+back 13
+loop 2 3 4 5 6 7 8 9 10 11 12 13
+delete
+// Case C
+new
+insert 5 1
+insert 2 1
+insert 8 1
+insert 1 1
+insert 3 1
+insert 7 1
+insert 10 1
+insert 4 1
+insert 6 1
+insert 9 1
+insert 11 1
+insert 12 1
+height 4
+erase 1 1
+height 3
+front 2
+back 12
+loop 2 3 4 5 6 7 8 9 10 11 12
+delete
+summary
+details
+exit

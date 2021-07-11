@@ -1,0 +1,11 @@
+new: 6
+distance 5 5 0
+insert 5 3 17.81
+insert 4 5 96.69
+insert 2 3 49.32
+distance 3 5 17.81
+distance 2 4 163.82
+distance 4 2 163.82
+delete
+summary
+exit

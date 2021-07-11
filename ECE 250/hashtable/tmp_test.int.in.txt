@@ -1,0 +1,3171 @@
+new: 1
+size 0
+load_factor 0.0
+capacity 2
+clear
+clear
+capacity 2
+insert 1418
+insert -658
+insert! 3085
+clear
+clear
+empty 1
+load_factor 0.0
+clear
+erase 1926 0
+member 3078 0
+load_factor 0.0
+clear
+erase 3952 0
+erase 1951 0
+erase -745 0
+erase -2517 0
+erase 861 0
+erase -2624 0
+erase -1151 0
+member -1627 0
+erase -1837 0
+erase 502 0
+erase 569 0
+erase 1738 0
+erase 2944 0
+erase 1910 0
+erase 682 0
+erase -538 0
+erase -2403 0
+erase 317 0
+erase 2719 0
+erase 3339 0
+erase 2312 0
+erase 3783 0
+insert 3432
+insert -1123
+insert! 2510
+insert! 3910
+insert! 616
+insert! -2545
+insert! -1348
+insert! -4049
+insert! 3401
+insert! -1092
+insert! -3837
+insert! -2992
+insert! 2587
+insert! 299
+insert! 3961
+insert! 3712
+bin 1 -1123
+insert! -736
+insert! 1179
+insert! -538
+insert! -1987
+insert! -3660
+insert! -94
+insert! -2074
+insert! 3067
+insert! -2501
+insert! 3797
+insert! 2582
+insert! 2179
+insert! -1452
+insert! -3350
+insert! 3429
+insert! -3361
+insert! -2097
+insert! -3211
+insert! -399
+insert! 2382
+insert! 3255
+insert! 3984
+insert! 642
+insert! -1909
+insert! -2390
+capacity 2
+erase -752 0
+erase 2499 0
+erase -2974 0
+erase -3501 0
+erase -1344 0
+erase 84 0
+erase -3794 0
+erase 900 0
+erase -3869 0
+erase 1248 0
+erase -3767 0
+empty 0
+empty 0
+capacity 2
+load_factor 1.0
+clear
+empty 1
+load_factor 0.0
+clear
+load_factor 0.0
+load_factor 0.0
+size 0
+capacity 2
+load_factor 0.0
+load_factor 0.0
+insert -1944
+insert 612
+insert! -1530
+insert! -2956
+insert! 1136
+insert! 2160
+insert! 1383
+insert! 2460
+insert! -3264
+insert! -3030
+insert! -3451
+insert! -1477
+insert! -566
+insert! 2881
+insert! -1501
+insert! -649
+insert! -103
+insert! 2153
+insert! -147
+insert! -604
+insert! 332
+insert! -1581
+insert! -392
+insert! -363
+insert! -1009
+insert! 2382
+insert! -451
+insert! 3276
+insert! -370
+insert! -452
+insert! -2914
+capacity 2
+load_factor 1.0
+bin 1 612
+member 1746 0
+capacity 2
+clear
+member 1826 0
+member 1388 0
+insert -266
+insert 3867
+insert! -2143
+insert! 3204
+insert! 268
+insert! 3775
+insert! 260
+insert! -3031
+insert! -4037
+insert! 1872
+insert! 3503
+insert! -3746
+insert! -3334
+insert! 2000
+insert! 3523
+insert! 1157
+insert! -1001
+insert! -834
+insert! 3363
+insert! 3124
+insert! 3725
+insert! -3885
+insert! 3812
+insert! 3812
+insert! -780
+insert! -690
+insert! 1323
+clear
+erase -3932 0
+erase -989 0
+erase 1894 0
+erase -3057 0
+erase -1835 0
+erase -3540 0
+erase 368 0
+load_factor 0.0
+member 1601 0
+empty 1
+member -508 0
+clear
+empty 1
+capacity 2
+insert -448
+insert 662
+bin 1 662
+size 2
+capacity 2
+size 2
+member -1153 0
+clear
+empty 1
+insert 346
+insert -2282
+insert! 497
+insert! -2066
+member 830 0
+bin 0 346
+size 2
+empty 0
+size 2
+insert! 3451
+insert! 2844
+insert! -2652
+insert! -3654
+insert! -308
+member 732 0
+insert! -474
+insert! -916
+insert! -3089
+insert! -2327
+insert! 3211
+insert! -2129
+insert! 968
+insert! -3476
+insert! 920
+insert! -1266
+insert! -3127
+insert! 330
+insert! -3521
+insert! 722
+insert! -1729
+insert! -1183
+insert! -2376
+insert! -3649
+insert! 1605
+member 2294 0
+erase -348 0
+erase 1903 0
+erase -2295 0
+erase 2766 0
+erase 824 0
+erase -724 0
+erase -704 0
+erase -2417 0
+member -3968 0
+insert! -3599
+insert! 834
+insert! 3432
+insert! -3433
+insert! -3255
+insert! 1533
+size 2
+erase 4082 0
+erase 451 0
+erase -3957 0
+erase 2800 0
+erase -96 0
+erase 1401 0
+insert! -57
+insert! 3331
+insert! -3327
+insert! -2660
+member 1303 0
+size 2
+capacity 2
+size 2
+bin 0 346
+member -421 0
+erase 1661 0
+erase 2224 0
+erase -3702 0
+erase -137 0
+erase 581 0
+erase 2919 0
+erase -309 0
+erase 2441 0
+erase -609 0
+erase -2969 0
+erase -3411 0
+erase 2821 0
+erase -2837 0
+clear
+load_factor 0.0
+size 0
+erase -3895 0
+erase 3061 0
+erase -3147 0
+erase -1198 0
+erase -1751 0
+erase 2186 0
+erase 3297 0
+erase -344 0
+erase 653 0
+capacity 2
+clear
+erase -1050 0
+erase -1888 0
+erase -3462 0
+erase -353 0
+erase 4020 0
+erase -2805 0
+erase 3439 0
+erase 2856 0
+erase -2122 0
+erase 1785 0
+member -422 0
+load_factor 0.0
+size 0
+member 3538 0
+erase 3307 0
+erase 132 0
+erase 1590 0
+erase 3285 0
+erase 2831 0
+erase 1076 0
+erase 3029 0
+erase 3595 0
+erase 3075 0
+erase -811 0
+erase 550 0
+erase 1395 0
+erase -1541 0
+erase -686 0
+load_factor 0.0
+clear
+member 1179 0
+insert 3812
+insert -2847
+insert! -2869
+insert! 2994
+insert! 3591
+insert! -725
+insert! -3022
+insert! -975
+insert! 1905
+insert! -2287
+insert! -13
+insert! -1869
+insert! 1720
+insert! 3362
+insert! 1636
+insert! 2616
+insert! 3556
+insert! -663
+insert! -3036
+insert! 3470
+insert! -2038
+insert! -520
+insert! -3702
+insert! -3987
+insert! -1885
+insert! 2513
+insert! -851
+insert! -2066
+insert! 1095
+clear
+size 0
+member -1197 0
+clear
+insert -3806
+insert -2096
+insert! 3795
+insert! -1706
+insert! 1184
+insert! 2468
+insert! 4041
+insert! 1930
+insert! 630
+insert! -3123
+insert! 1424
+insert! -874
+insert! 964
+insert! 2179
+insert! -1708
+insert! 3476
+insert! -3229
+insert! -2484
+insert! -1725
+insert! -1502
+insert! -32
+insert! 3899
+insert! -2550
+insert! 2149
+insert! -2212
+insert! -2355
+insert! 245
+insert! 1390
+insert! 2354
+insert! 1813
+insert! 2241
+insert! 2495
+insert! -891
+insert! 4023
+insert! -688
+insert! -1765
+insert! -673
+insert! 2892
+insert! -3354
+insert! 2362
+insert! -2220
+insert! -1597
+bin 1 -2096
+load_factor 1.0
+bin 0 -3806
+empty 0
+size 2
+size 2
+clear
+clear
+empty 1
+clear
+insert 2595
+insert 816
+insert! -989
+insert! 1154
+insert! 3353
+insert! 748
+insert! 2497
+insert! -2555
+insert! -589
+insert! 368
+insert! 3709
+insert! 2215
+insert! 3766
+insert! 3404
+insert! -1757
+insert! -777
+insert! 114
+insert! -165
+insert! -3184
+insert! 1263
+insert! 2754
+insert! 2807
+insert! -93
+insert! -2762
+insert! -3854
+insert! -3228
+insert! 2628
+insert! 2336
+insert! -3937
+insert! 3198
+insert! -2574
+insert! 649
+insert! 4091
+insert! 1999
+insert! 1490
+insert! -1837
+insert! -3118
+insert! -3738
+insert! 1083
+insert! 2035
+insert! -2763
+insert! 477
+insert! 1407
+insert! -1530
+load_factor 1.0
+insert! 3118
+insert! -1836
+insert! -2987
+insert! -2025
+insert! -3902
+insert! -915
+insert! 716
+insert! -1415
+insert! -1441
+insert! 1079
+insert! -1095
+insert! 3867
+insert! -1927
+insert! -2319
+bin 0 816
+insert! -3298
+insert! 2469
+insert! 1643
+insert! 974
+insert! -1948
+insert! -1439
+insert! -2373
+insert! -3335
+insert! 1646
+member 3216 0
+size 2
+capacity 2
+erase -2147 0
+erase -1222 0
+erase -766 0
+erase 1879 0
+erase -1354 0
+erase -436 0
+erase 1754 0
+erase -738 0
+load_factor 1.0
+erase -2066 0
+member -845 0
+member -2295 0
+capacity 2
+clear
+insert 492
+insert 2494
+insert! -2778
+insert! -1341
+insert! 3517
+insert! -799
+insert! -2433
+insert! 4087
+insert! 3076
+insert! -2087
+insert! -3604
+insert! -1862
+insert! 3261
+insert! 1577
+insert! 204
+insert! -3128
+insert! 2487
+insert! 1942
+insert! 2387
+insert! -1622
+insert! -56
+insert! -3228
+member 1571 0
+load_factor 1.0
+erase 2150 0
+erase -1490 0
+erase -3664 0
+erase 1050 0
+erase 3126 0
+erase -580 0
+erase 3115 0
+erase 1775 0
+erase 3802 0
+erase 3241 0
+erase 3919 0
+erase 1157 0
+erase 138 0
+erase 1809 0
+bin 1 2494
+load_factor 1.0
+capacity 2
+load_factor 1.0
+bin 1 2494
+empty 0
+bin 1 2494
+size 2
+clear
+size 0
+load_factor 0.0
+member 2024 0
+member -3062 0
+clear
+capacity 2
+member -1213 0
+empty 1
+load_factor 0.0
+load_factor 0.0
+insert -3961
+empty 0
+bin 1 -3961
+empty 0
+size 1
+capacity 2
+size 1
+load_factor 0.5
+size 1
+member -2390 0
+clear
+member -1273 0
+size 0
+member 3317 0
+insert -2555
+insert -359
+insert! 1343
+insert! 1331
+insert! 3539
+insert! 936
+insert! 2368
+insert! -3968
+insert! -1687
+insert! 885
+insert! 555
+insert! 625
+insert! -1352
+insert! 1888
+insert! 1044
+member -154 0
+load_factor 1.0
+size 2
+capacity 2
+erase -208 0
+erase -3144 0
+erase 102 0
+erase 3022 0
+erase -3522 0
+erase 909 0
+erase -2762 0
+erase -712 0
+erase -3297 0
+erase 344 0
+erase -3407 0
+erase -3108 0
+erase -2105 0
+erase 3899 0
+erase 3016 0
+capacity 2
+size 2
+insert! 3557
+insert! -2758
+insert! -1116
+insert! 947
+insert! -2692
+insert! -971
+insert! -2076
+insert! -1006
+insert! 4008
+insert! -1788
+insert! 1068
+insert! 2910
+insert! -2394
+insert! 727
+insert! -2289
+insert! 4023
+insert! 1387
+insert! -2628
+insert! -197
+member -2992 0
+insert! -2253
+insert! -3838
+insert! -2450
+insert! 894
+insert! -3066
+insert! -189
+insert! -3778
+insert! -543
+clear
+capacity 2
+load_factor 0.0
+clear
+insert -2413
+insert -474
+insert! 1018
+capacity 2
+capacity 2
+member -2909 0
+empty 0
+empty 0
+member -3536 0
+member 2332 0
+bin 1 -2413
+insert! -1235
+insert! 2993
+insert! 339
+load_factor 1.0
+size 2
+empty 0
+erase 3133 0
+erase -3379 0
+erase -3067 0
+erase 151 0
+erase 1793 0
+erase -2866 0
+erase -1074 0
+erase -3821 0
+erase 951 0
+erase 1596 0
+erase 2724 0
+erase -2661 0
+erase -2043 0
+erase 3647 0
+member 3109 0
+member -3592 0
+empty 0
+empty 0
+empty 0
+load_factor 1.0
+load_factor 1.0
+bin 0 -474
+load_factor 1.0
+capacity 2
+insert! 372
+insert! 2934
+insert! 2229
+insert! -1674
+insert! 722
+insert! 3091
+insert! -1446
+insert! 273
+insert! 1813
+insert! 524
+insert! -1140
+insert! 4072
+insert! 3876
+insert! -2491
+insert! -1801
+insert! -3476
+insert! 1323
+insert! 2113
+insert! 3908
+insert! 2245
+insert! 3397
+insert! 2051
+insert! -3772
+insert! -3022
+insert! -2800
+insert! 1379
+insert! 576
+insert! -2007
+insert! -4034
+insert! -3617
+bin 0 -474
+load_factor 1.0
+member 3288 0
+capacity 2
+empty 0
+load_factor 1.0
+erase -647 0
+erase 2338 0
+erase -762 0
+erase -2859 0
+erase 2658 0
+erase 243 0
+erase 1770 0
+erase -2024 0
+erase -111 0
+size 2
+member 2833 0
+clear
+member 3501 0
+clear
+empty 1
+size 0
+insert -2333
+insert -1396
+insert! 702
+insert! -2294
+insert! -2110
+insert! -3449
+insert! -1073
+insert! 3208
+member 2731 0
+insert! -3515
+insert! 1599
+insert! 3989
+insert! 738
+insert! -11
+insert! 431
+insert! -1297
+insert! 2319
+insert! 3791
+insert! -3490
+insert! -1790
+insert! 94
+insert! 1324
+insert! 2715
+insert! -2091
+insert! 3098
+insert! 2188
+insert! -3128
+insert! 341
+insert! -2476
+insert! -3069
+insert! -2729
+insert! 971
+insert! -959
+insert! 60
+insert! -811
+insert! -2545
+insert! 74
+insert! -71
+insert! 2297
+insert! -1605
+insert! 2801
+insert! 1882
+insert! 661
+insert! -1154
+insert! 683
+insert! -1902
+insert! 1600
+insert! 1802
+insert! -400
+insert! -1450
+insert! 832
+insert! 1156
+insert! -2267
+insert! -1809
+insert! 1434
+insert! -3938
+insert! 569
+insert! 2138
+insert! -2610
+insert! -793
+insert! 47
+insert! -2242
+insert! -1861
+insert! 1055
+insert! 4095
+insert! 442
+insert! -1344
+load_factor 1.0
+bin 1 -2333
+size 2
+member -492 0
+empty 0
+member -3262 0
+clear
+size 0
+empty 1
+empty 1
+insert -516
+insert 3932
+insert! 2561
+insert! -1061
+insert! 1659
+insert! -3357
+insert! -3037
+insert! 1894
+insert! 2226
+insert! 782
+insert! -2045
+insert! -1172
+insert! -687
+insert! -3128
+insert! 1512
+insert! 2936
+insert! -712
+insert! 944
+insert! 1087
+insert! -3451
+erase 2712 0
+erase -783 0
+erase 3456 0
+erase 667 0
+erase 1371 0
+erase 4078 0
+erase -3221 0
+erase 3745 0
+size 2
+erase -3609 0
+erase 1672 0
+size 2
+erase 2430 0
+erase 1738 0
+erase -2151 0
+erase 3997 0
+erase 3451 0
+erase -2353 0
+erase -4015 0
+erase 583 0
+erase 1710 0
+erase 204 0
+erase -3222 0
+erase -910 0
+erase -3971 0
+erase -2201 0
+erase 557 0
+size 2
+clear
+capacity 2
+insert -1913
+insert -3792
+insert! 1088
+insert! 1666
+insert! -3910
+insert! -3990
+insert! 3418
+insert! -1513
+insert! 2530
+insert! -466
+insert! -3532
+insert! 2287
+insert! 2737
+insert! 830
+insert! -337
+bin 1 -1913
+bin 1 -1913
+insert! 4003
+insert! 1386
+insert! 2735
+insert! 2432
+insert! -3678
+insert! 1632
+insert! -2993
+insert! -2412
+empty 0
+bin 0 -3792
+empty 0
+empty 0
+load_factor 1.0
+insert! 655
+insert! -1672
+insert! -2828
+insert! -3022
+insert! 4071
+insert! 576
+insert! -177
+insert! 3298
+insert! -2668
+insert! 781
+insert! -2259
+insert! -1816
+insert! 1955
+insert! 2368
+insert! 662
+insert! -635
+insert! -422
+insert! -3319
+insert! -830
+insert! 3756
+insert! -1840
+insert! -3771
+insert! 2726
+insert! 3022
+insert! 3832
+insert! -322
+insert! 3742
+insert! -1866
+insert! 3925
+member -39 0
+clear
+capacity 2
+insert -4062
+insert -1250
+insert! 419
+insert! -362
+insert! -2028
+insert! 2119
+insert! -1442
+insert! -3345
+insert! -3175
+insert! 2579
+insert! 1161
+insert! -134
+insert! 226
+insert! -1627
+insert! 2480
+insert! 3786
+insert! 2993
+insert! -3755
+insert! 1779
+insert! 2891
+bin 1 -1250
+capacity 2
+load_factor 1.0
+empty 0
+size 2
+size 2
+empty 0
+size 2
+erase -2622 0
+erase 3795 0
+erase 72 0
+erase 1045 0
+erase 1578 0
+erase 3790 0
+erase -3684 0
+erase 3252 0
+erase 2462 0
+erase 1897 0
+erase 1312 0
+erase 3347 0
+erase 2011 0
+erase 2489 0
+erase -3986 0
+erase 1669 0
+erase 160 0
+erase 579 0
+member -3757 0
+insert! 3087
+insert! -3028
+insert! 4015
+insert! 3668
+insert! 255
+insert! 3518
+insert! 2205
+insert! -369
+insert! -1415
+insert! -2963
+insert! -18
+insert! 876
+insert! -3654
+insert! 2482
+insert! 3271
+insert! -1476
+insert! -3322
+insert! -1554
+insert! -3778
+insert! -3219
+insert! 3482
+insert! -3378
+insert! -686
+insert! 4019
+insert! -1772
+insert! -3327
+insert! -2536
+insert! -414
+insert! 2256
+insert! 1716
+load_factor 1.0
+empty 0
+member -325 0
+member 2639 0
+empty 0
+empty 0
+load_factor 1.0
+member 2119 0
+erase -3619 0
+erase -3101 0
+erase 3527 0
+erase 1665 0
+erase -3471 0
+erase -1606 0
+erase 1579 0
+erase 1885 0
+erase -2889 0
+erase -3901 0
+erase -281 0
+bin 1 -1250
+erase 798 0
+erase -1412 0
+erase 1060 0
+erase -2491 0
+erase 686 0
+erase 81 0
+erase -1441 0
+erase 1495 0
+erase 1088 0
+capacity 2
+capacity 2
+insert! 3064
+insert! -3370
+insert! 2513
+insert! 1091
+insert! 3868
+insert! 441
+insert! 2208
+insert! 729
+insert! -2240
+insert! -4034
+insert! 2994
+insert! -2622
+insert! -3948
+insert! -1339
+insert! 3218
+insert! -7
+insert! -3562
+insert! 2986
+insert! 2825
+insert! 1008
+insert! 3171
+insert! -3856
+insert! 506
+insert! -118
+load_factor 1.0
+size 2
+empty 0
+insert! 2725
+insert! 3630
+insert! 3296
+insert! -4076
+insert! -1696
+insert! -1904
+insert! -1337
+insert! 2034
+insert! -3582
+insert! -372
+insert! 2500
+insert! 3840
+insert! -513
+insert! 3064
+insert! 1561
+insert! 183
+insert! 3040
+insert! 2438
+insert! 1958
+insert! 2816
+insert! 3292
+insert! -1260
+insert! -3285
+insert! -643
+insert! -4008
+insert! 3933
+insert! 1718
+insert! -673
+capacity 2
+clear
+member -2384 0
+member 1131 0
+clear
+erase 3919 0
+erase 1090 0
+erase 2893 0
+erase -3668 0
+erase -1757 0
+erase 3653 0
+erase -1265 0
+erase 1109 0
+erase 944 0
+clear
+empty 1
+load_factor 0.0
+empty 1
+clear
+size 0
+insert -811
+insert 1777
+insert! -2492
+insert! -1249
+insert! 2256
+insert! 4012
+insert! 3142
+size 2
+member -3481 0
+clear
+capacity 2
+clear
+size 0
+member -4074 0
+empty 1
+size 0
+member -1064 0
+empty 1
+size 0
+load_factor 0.0
+insert 2792
+insert 3789
+insert! -3996
+insert! 1523
+insert! -2976
+insert! -3859
+insert! 236
+insert! 763
+insert! 3487
+insert! -1704
+insert! 2803
+insert! 935
+insert! 2232
+insert! -1994
+insert! 1260
+insert! 3329
+insert! 199
+insert! 1754
+insert! -4058
+insert! -677
+load_factor 1.0
+capacity 2
+size 2
+empty 0
+bin 1 3789
+capacity 2
+member 931 0
+member -2171 0
+insert! 507
+insert! -4055
+insert! 3789
+insert! -2302
+insert! 2444
+insert! -2814
+insert! 2921
+insert! 243
+insert! -3550
+insert! -1678
+insert! -604
+insert! 1634
+insert! -3547
+insert! -1359
+insert! -988
+insert! -2976
+insert! -1141
+insert! -2264
+insert! 1361
+insert! 3380
+insert! -436
+insert! 2868
+insert! -2511
+member -1267 0
+member 2827 0
+capacity 2
+clear
+member 52 0
+insert 692
+insert -3202
+insert! -3591
+insert! -1509
+insert! -2086
+insert! -3433
+insert! 1246
+insert! -1459
+insert! -4032
+insert! 2506
+insert! 3822
+insert! 1184
+insert! -481
+insert! 3471
+insert! -1759
+insert! -4091
+insert! 2591
+insert! -1326
+insert! 1569
+insert! 2159
+insert! 2445
+insert! -1981
+insert! 2932
+insert! 2141
+insert! 69
+insert! -448
+insert! 3283
+insert! -1673
+insert! -1658
+load_factor 1.0
+empty 0
+capacity 2
+member -1111 0
+size 2
+member 1944 0
+capacity 2
+bin 0 692
+insert! -3769
+insert! -605
+insert! 216
+insert! 1701
+insert! -63
+insert! -2839
+insert! -1406
+insert! -966
+insert! -3881
+insert! -294
+insert! -2012
+insert! 2935
+insert! -1830
+insert! -1333
+insert! -368
+insert! -2224
+insert! 1589
+insert! -873
+insert! -611
+insert! 4084
+insert! -1049
+insert! -3130
+insert! -1984
+erase 3138 0
+erase -2163 0
+erase 1583 0
+erase -3574 0
+erase 299 0
+erase -440 0
+erase -1356 0
+size 2
+insert! -2449
+insert! -2936
+insert! -362
+insert! -3170
+insert! -3314
+member -3449 0
+erase -492 0
+erase -3071 0
+erase 3015 0
+erase 2495 0
+erase -3019 0
+erase -733 0
+erase 1509 0
+erase -2406 0
+erase -2469 0
+erase 1368 0
+erase 1421 0
+erase 818 0
+load_factor 1.0
+insert! 2755
+insert! -1585
+insert! -1863
+insert! 2098
+insert! -1289
+insert! 2965
+insert! -2224
+insert! -1736
+insert! 2541
+size 2
+member -1650 0
+size 2
+bin 0 692
+member 2495 0
+member 3659 0
+load_factor 1.0
+capacity 2
+erase -1720 0
+erase 3259 0
+erase -4029 0
+erase 693 0
+erase 1698 0
+erase -429 0
+erase -1135 0
+erase -3485 0
+erase -1307 0
+erase -2162 0
+erase 1327 0
+erase -164 0
+erase 2297 0
+erase 3501 0
+erase 340 0
+member 2436 0
+capacity 2
+load_factor 1.0
+clear
+empty 1
+member -670 0
+insert -3294
+insert 1459
+insert! 2478
+insert! 1781
+insert! 2350
+insert! -1658
+insert! -3544
+insert! -3529
+insert! 549
+insert! 2410
+insert! -1589
+insert! -2991
+insert! 2209
+insert! -3648
+insert! -1433
+insert! -3541
+insert! 19
+insert! 2216
+insert! -3764
+insert! 4005
+insert! 3730
+insert! 2498
+insert! 2357
+insert! -2033
+insert! -1860
+load_factor 1.0
+capacity 2
+erase 996 0
+erase 1244 0
+erase 2785 0
+erase 2509 0
+erase 2657 0
+erase -2456 0
+erase 2703 0
+erase -41 0
+erase 3331 0
+erase -1193 0
+erase 2700 0
+erase -1578 0
+erase 1856 0
+erase 2943 0
+erase -3136 0
+erase -1640 0
+erase -852 0
+erase 1169 0
+erase -3779 0
+erase -1988 0
+erase 4026 0
+erase 1625 0
+erase -2062 0
+erase 3382 0
+erase 3119 0
+erase -1855 0
+erase 47 0
+erase 1639 0
+erase 3641 0
+erase 2264 0
+empty 0
+erase 2184 0
+erase -3791 0
+erase 1591 0
+erase -3771 0
+erase 3010 0
+erase 3471 0
+bin 0 -3294
+clear
+load_factor 0.0
+member 192 0
+capacity 2
+member -2003 0
+member 1184 0
+insert 1942
+insert -350
+insert! -3030
+insert! 3081
+insert! 3902
+insert! -984
+insert! -3067
+insert! -2504
+insert! 182
+insert! -1560
+insert! -373
+insert! -510
+insert! 1655
+insert! 3794
+insert! 1037
+insert! -977
+insert! 2453
+insert! 3499
+insert! 3723
+insert! -3136
+insert! 2047
+insert! 3930
+insert! -1649
+insert! -162
+insert! -2474
+bin 0 1942
+size 2
+insert! 3302
+insert! -1980
+insert! 1345
+insert! 3468
+insert! 2297
+insert! 933
+insert! -2513
+insert! 2594
+insert! -1153
+insert! -4038
+insert! 2231
+insert! -554
+insert! -1949
+insert! -1084
+insert! 1043
+insert! -3845
+insert! -1231
+insert! 1277
+insert! 619
+insert! -2503
+insert! 666
+insert! -3296
+insert! -775
+insert! 1444
+insert! -2947
+insert! -129
+member -1101 0
+bin 1 -350
+clear
+insert 3588
+insert -1396
+insert! 277
+insert! 2504
+insert! 729
+insert! -3601
+insert! 1870
+insert! -1455
+insert! 3099
+insert! 2907
+insert! 3230
+insert! 4000
+insert! 2914
+insert! 2740
+insert! -529
+insert! 2355
+insert! -1627
+insert! -3071
+insert! -1899
+insert! 624
+insert! 3855
+insert! 1300
+insert! 1890
+insert! -1299
+insert! 3141
+insert! -1228
+insert! 1517
+insert! 2450
+insert! 3842
+insert! 955
+insert! 3522
+insert! 428
+insert! 600
+insert! 3536
+insert! -4089
+insert! 615
+size 2
+erase -847 0
+erase -2397 0
+erase -2907 0
+erase 1943 0
+size 2
+bin 1 -1396
+member -432 0
+member -2526 0
+erase 3822 0
+erase -2033 0
+erase -3979 0
+erase -731 0
+erase -482 0
+erase 4054 0
+erase 2253 0
+erase -2771 0
+erase 687 0
+erase 517 0
+erase -3219 0
+erase 883 0
+member -3489 0
+member 4005 0
+insert! 3499
+insert! 3426
+insert! 2865
+insert! -355
+insert! -1078
+insert! 689
+insert! 2391
+insert! 306
+insert! 922
+insert! -1715
+insert! -375
+insert! -3488
+insert! -348
+insert! 1043
+insert! 3934
+insert! -1741
+insert! 3091
+insert! -3571
+insert! 2946
+insert! -639
+insert! -3042
+load_factor 1.0
+empty 0
+insert! -3598
+insert! -3950
+insert! 417
+insert! -1956
+empty 0
+member -1035 0
+insert! 3999
+insert! 1507
+insert! -4048
+insert! 383
+insert! 694
+insert! 476
+insert! -3501
+insert! 3335
+insert! -3092
+insert! 2157
+insert! -3723
+insert! 1184
+insert! -3471
+insert! 2656
+insert! 254
+insert! -751
+insert! 3779
+insert! 1566
+insert! 149
+insert! -3418
+insert! -3041
+insert! 1297
+insert! -1955
+insert! 999
+insert! 3877
+insert! -428
+member 1665 0
+empty 0
+member 22 0
+insert! -1918
+insert! 2579
+insert! 1219
+insert! 1139
+insert! 2886
+insert! -3016
+insert! -1795
+empty 0
+clear
+empty 1
+insert -1792
+insert -2142
+insert! -1679
+insert! 226
+insert! 3993
+insert! -2104
+insert! -495
+member -2438 0
+size 2
+size 2
+empty 0
+erase -4018 0
+erase -1721 0
+erase 4058 0
+erase -556 0
+erase 3052 0
+erase 1292 0
+erase -514 0
+erase -2359 0
+erase 3320 0
+erase -3488 0
+erase -1794 0
+erase -1588 0
+erase -3076 0
+erase -564 0
+erase -1410 0
+member -2409 0
+member -2551 0
+erase -3816 0
+erase 3238 0
+erase 585 0
+erase -3308 0
+erase -3872 0
+erase -2416 0
+erase 659 0
+erase -2885 0
+erase 2565 0
+erase -2075 0
+clear
+insert 633
+insert -2047
+insert! -271
+insert! 1635
+insert! -1516
+insert! -2437
+insert! 3630
+insert! -1638
+insert! -208
+insert! -3796
+insert! -2505
+insert! -3062
+insert! -2117
+insert! 1389
+insert! 3202
+insert! -1318
+insert! 1998
+insert! -2605
+insert! 4092
+insert! -2387
+insert! 2368
+insert! 429
+insert! -652
+insert! 2259
+insert! 3183
+insert! 872
+insert! -3493
+insert! 2763
+insert! -1661
+insert! -1999
+load_factor 1.0
+capacity 2
+member -2429 0
+size 2
+size 2
+size 2
+size 2
+member 1054 0
+bin 0 -2047
+load_factor 1.0
+empty 0
+bin 1 633
+clear
+size 0
+size 0
+size 0
+empty 1
+size 0
+member 3987 0
+size 0
+clear
+capacity 2
+clear
+member 3180 0
+erase -2646 0
+erase -1230 0
+erase 1801 0
+erase 1128 0
+erase 2922 0
+load_factor 0.0
+size 0
+member -3046 0
+member -1901 0
+clear
+member 1 0
+clear
+clear
+clear
+empty 1
+member -2997 0
+member -3918 0
+clear
+member 2946 0
+empty 1
+erase -683 0
+erase 1622 0
+erase 1201 0
+erase -2664 0
+erase -3286 0
+erase 1492 0
+erase -3075 0
+erase -1931 0
+erase 3140 0
+empty 1
+capacity 2
+capacity 2
+member 306 0
+erase 560 0
+erase -3534 0
+erase 2089 0
+erase -663 0
+erase -3797 0
+erase 1145 0
+erase -2145 0
+erase -598 0
+erase 448 0
+erase -2380 0
+erase -1209 0
+erase 2880 0
+erase -421 0
+erase -1878 0
+erase 345 0
+erase 969 0
+erase 1463 0
+capacity 2
+insert -1767
+insert -3354
+insert! -1329
+insert! -2449
+insert! 743
+insert! -543
+insert! -2182
+insert! -806
+insert! -1750
+insert! -2287
+insert! -3945
+insert! -2447
+insert! -721
+insert! -2712
+insert! 2045
+insert! -299
+insert! 3223
+insert! -1729
+insert! -3072
+insert! 3772
+insert! 3918
+insert! 671
+insert! -1699
+insert! 898
+insert! -2090
+bin 1 -1767
+size 2
+size 2
+empty 0
+insert! -3502
+insert! -2001
+insert! 2205
+insert! 2294
+insert! -1020
+insert! -858
+insert! 3505
+insert! -2135
+insert! 1522
+insert! -2525
+insert! -3646
+insert! 2264
+insert! -111
+insert! 1424
+insert! 2959
+insert! -2451
+size 2
+bin 0 -3354
+member 4022 0
+empty 0
+bin 1 -1767
+clear
+load_factor 0.0
+capacity 2
+empty 1
+erase -4054 0
+erase 3083 0
+erase 3425 0
+erase -1299 0
+erase -3257 0
+erase 3747 0
+erase -4015 0
+erase 701 0
+erase 747 0
+load_factor 0.0
+member 1584 0
+size 0
+empty 1
+member 995 0
+member 3551 0
+capacity 2
+erase -2340 0
+load_factor 0.0
+erase 1736 0
+erase -2922 0
+erase 493 0
+erase 3548 0
+erase 474 0
+erase 1248 0
+erase -1022 0
+erase -2781 0
+erase 1358 0
+capacity 2
+size 0
+load_factor 0.0
+insert -3297
+insert -3026
+insert! -2711
+insert! 1852
+insert! -1639
+insert! -35
+insert! 554
+insert! -3339
+insert! 3502
+insert! 2254
+insert! 1757
+insert! 402
+insert! -319
+insert! -3709
+insert! -877
+insert! 302
+insert! -2975
+insert! 3632
+insert! -3048
+insert! -787
+insert! -2787
+insert! 3371
+insert! 1030
+insert! -1953
+insert! -4038
+insert! 67
+insert! -925
+erase -2153 0
+erase -1339 0
+erase -3071 0
+erase -1177 0
+erase -2535 0
+erase -2546 0
+erase 829 0
+empty 0
+erase 2183 0
+erase 3834 0
+insert! 1312
+insert! 915
+insert! 495
+insert! -3609
+insert! 3562
+insert! 2136
+insert! 1902
+load_factor 1.0
+member 1402 0
+clear
+erase -171 0
+erase 1549 0
+erase -518 0
+erase -163 0
+erase 2304 0
+erase -3118 0
+erase -968 0
+capacity 2
+insert -1474
+capacity 2
+insert 807
+insert! -871
+insert! -3630
+insert! 2171
+insert! -2056
+insert! 2332
+insert! -3668
+insert! -2225
+empty 0
+empty 0
+clear
+empty 1
+clear
+erase -1120 0
+erase 1855 0
+erase 1312 0
+erase -3347 0
+erase -3300 0
+erase 2612 0
+erase -2491 0
+erase -841 0
+erase 1065 0
+erase 3989 0
+erase 3978 0
+erase 1198 0
+empty 1
+capacity 2
+empty 1
+empty 1
+clear
+load_factor 0.0
+size 0
+capacity 2
+empty 1
+erase 532 0
+erase -366 0
+erase -800 0
+erase 2598 0
+erase 346 0
+erase 1404 0
+erase 854 0
+erase -3306 0
+erase 2317 0
+erase 599 0
+erase 990 0
+clear
+member -308 0
+erase 3568 0
+erase -2655 0
+erase 2595 0
+erase -1147 0
+erase -3732 0
+erase -2927 0
+erase 2938 0
+erase 2965 0
+erase -2907 0
+erase 1873 0
+size 0
+size 0
+clear
+size 0
+load_factor 0.0
+size 0
+member -2681 0
+erase -446 0
+erase -54 0
+clear
+size 0
+capacity 2
+erase -3525 0
+erase -3917 0
+erase 3216 0
+size 0
+clear
+empty 1
+capacity 2
+size 0
+erase -3065 0
+erase 586 0
+erase 2461 0
+erase 4014 0
+erase 1890 0
+erase -388 0
+erase -3533 0
+erase -3652 0
+erase -211 0
+erase -2295 0
+erase 817 0
+erase -2493 0
+erase -2713 0
+erase -1931 0
+erase 500 0
+capacity 2
+load_factor 0.0
+size 0
+load_factor 0.0
+insert -3896
+insert 3154
+insert! -1455
+insert! 261
+insert! -269
+insert! -2398
+insert! -262
+insert! 520
+size 2
+empty 0
+empty 0
+load_factor 1.0
+clear
+empty 1
+load_factor 0.0
+load_factor 0.0
+load_factor 0.0
+capacity 2
+erase -693 0
+erase 1237 0
+erase -505 0
+erase 2892 0
+erase -3383 0
+erase 1430 0
+erase -3751 0
+erase -2994 0
+erase -1457 0
+erase 1082 0
+erase 1313 0
+erase 960 0
+erase -1542 0
+member 3889 0
+insert 1663
+insert 3909
+insert! -836
+insert! -2296
+insert! -3645
+insert! 3955
+insert! 4044
+insert! -982
+insert! -2465
+insert! -80
+insert! -1118
+member -2429 0
+clear
+member -2378 0
+load_factor 0.0
+member 569 0
+clear
+clear
+size 0
+load_factor 0.0
+empty 1
+load_factor 0.0
+clear
+erase 3002 0
+erase 2111 0
+erase 213 0
+erase -2647 0
+size 0
+empty 1
+erase 2925 0
+erase -1347 0
+erase 3135 0
+erase -3003 0
+erase -3114 0
+erase -2149 0
+erase 1291 0
+erase -315 0
+erase -2333 0
+insert 1241
+insert 866
+insert! 2155
+insert! -3401
+insert! -3411
+insert! 5
+insert! -3267
+empty 0
+erase 246 0
+erase 3353 0
+erase 1418 0
+erase 3320 0
+erase -566 0
+erase 1246 0
+erase -1207 0
+erase -532 0
+erase -1985 0
+erase -606 0
+erase -3582 0
+erase 3133 0
+erase 2657 0
+erase 107 0
+erase 3112 0
+empty 0
+bin 1 1241
+size 2
+member -2063 0
+clear
+insert -2775
+insert -2325
+insert! -30
+insert! -1132
+insert! 849
+insert! -511
+insert! 667
+insert! 1624
+insert! 664
+insert! 2193
+insert! -3954
+insert! -3722
+insert! -3651
+insert! -2069
+insert! -2788
+insert! 2848
+insert! 3939
+insert! -4078
+insert! 29
+insert! -2950
+insert! -3016
+insert! 2313
+insert! 3624
+insert! 990
+insert! 1672
+insert! 2349
+insert! 3800
+insert! 1060
+insert! 2256
+insert! 2967
+insert! -3112
+erase -1551 0
+erase 1933 0
+erase 1403 0
+erase 2486 0
+erase 52 0
+erase 315 0
+erase 3089 0
+erase -2754 0
+erase -105 0
+erase 246 0
+bin 0 -2325
+member -1498 0
+size 2
+capacity 2
+insert! 1255
+insert! 1713
+insert! -2078
+insert! 2296
+insert! -2393
+insert! -3388
+insert! 2301
+insert! -1145
+insert! 2113
+insert! -2180
+insert! -443
+member 1544 0
+insert! -1481
+insert! 3979
+insert! -2341
+insert! 3437
+insert! -3884
+insert! 561
+insert! 2528
+insert! 2196
+insert! -2065
+insert! -1204
+insert! -3544
+insert! 3264
+insert! -2968
+insert! 1894
+insert! 3961
+insert! 3285
+insert! 364
+insert! -12
+insert! 324
+insert! 3984
+insert! 562
+erase -315 0
+erase 2396 0
+erase 2084 0
+erase -3036 0
+erase 1351 0
+erase -1274 0
+erase -1134 0
+erase -669 0
+empty 0
+load_factor 1.0
+size 2
+member -1043 0
+erase -2757 0
+erase -1605 0
+erase -1368 0
+erase 3529 0
+erase 473 0
+erase -3949 0
+empty 0
+empty 0
+capacity 2
+clear
+empty 1
+size 0
+empty 1
+clear
+capacity 2
+size 0
+empty 1
+load_factor 0.0
+erase -1486 0
+erase 1678 0
+empty 1
+load_factor 0.0
+capacity 2
+insert -1321
+insert 1
+insert! -3559
+insert! -2802
+insert! -1623
+insert! -2088
+insert! -358
+insert! -1431
+insert! -1346
+insert! -1218
+insert! 2994
+insert! -2216
+insert! 224
+insert! -3189
+insert! 3688
+insert! -1612
+insert! 4082
+insert! 3739
+insert! 3265
+erase -1969 0
+erase -1606 0
+erase 727 0
+erase -1839 0
+erase 1370 0
+erase -824 0
+erase 2918 0
+erase 198 0
+erase -2974 0
+erase -2528 0
+erase 759 0
+clear
+load_factor 0.0
+insert 3540
+insert 42
+insert! 2236
+insert! -2181
+insert! 2940
+insert! 3312
+insert! -3575
+insert! -3997
+insert! 2444
+insert! -323
+insert! -3323
+insert! 272
+insert! 426
+insert! -2900
+insert! -3443
+size 2
+load_factor 1.0
+insert! -2853
+insert! -1245
+insert! -1283
+insert! -427
+insert! -12
+insert! -2220
+insert! 348
+insert! -2597
+insert! 3588
+insert! 3906
+insert! -1920
+insert! 3701
+insert! 2391
+insert! -1734
+insert! -590
+insert! 955
+insert! -3980
+insert! -838
+insert! 21
+insert! 3940
+insert! -2925
+insert! -3711
+insert! 1852
+insert! -29
+insert! -3324
+insert! 2968
+insert! 2628
+insert! 3967
+insert! -3596
+insert! 2045
+insert! 1928
+erase -1103 0
+erase -1378 0
+erase 706 0
+erase -4026 0
+erase -3275 0
+erase -2635 0
+erase -3913 0
+erase -1763 0
+erase -3428 0
+erase 1655 0
+erase 3869 0
+erase 3091 0
+erase -2850 0
+erase -713 0
+bin 0 3540
+bin 0 3540
+bin 0 3540
+size 2
+capacity 2
+load_factor 1.0
+bin 1 42
+member 254 0
+member 1043 0
+member 1370 0
+member -3182 0
+capacity 2
+size 2
+insert! 688
+insert! 3870
+insert! 3294
+insert! 3590
+insert! -2408
+insert! -3539
+insert! 769
+insert! 1140
+insert! -3592
+insert! 2770
+insert! 614
+insert! -1307
+insert! -162
+insert! -1915
+insert! 3296
+insert! 2786
+insert! 2334
+insert! -2671
+insert! 4085
+insert! 3495
+insert! -276
+insert! 282
+insert! -68
+insert! -1707
+insert! 1539
+insert! -306
+capacity 2
+size 2
+clear
+insert 2016
+insert 3154
+insert! -709
+insert! 2460
+insert! 249
+insert! -184
+insert! 3331
+insert! -1542
+insert! 241
+insert! 3475
+insert! 1790
+insert! 1360
+insert! 1993
+insert! -3112
+insert! -1527
+insert! -3672
+insert! -1954
+insert! -2539
+insert! 2880
+insert! -2908
+insert! -3315
+insert! 391
+insert! -3666
+insert! -2951
+insert! 896
+insert! 3689
+insert! 3514
+insert! 2300
+capacity 2
+capacity 2
+erase 289 0
+erase 3364 0
+erase 3032 0
+erase -1720 0
+member -245 0
+empty 0
+bin 0 2016
+load_factor 1.0
+clear
+size 0
+clear
+member -2509 0
+erase 1564 0
+erase -3027 0
+erase -1995 0
+load_factor 0.0
+insert -1822
+insert -2832
+insert! -3741
+insert! 855
+insert! -1538
+insert! 608
+insert! -293
+insert! -3126
+insert! 2848
+insert! 1010
+insert! -2235
+insert! 2999
+insert! 2305
+insert! 1894
+insert! -4076
+insert! 2722
+capacity 2
+empty 0
+erase 3541 0
+erase -201 0
+erase -2621 0
+erase -765 0
+erase -2181 0
+erase -764 0
+erase 3206 0
+clear
+load_factor 0.0
+size 0
+empty 1
+member 248 0
+member 2647 0
+capacity 2
+insert 3201
+insert 3455
+insert! 3908
+insert! 66
+insert! 1530
+insert! 3068
+capacity 2
+bin 1 3201
+clear
+size 0
+empty 1
+size 0
+size 0
+empty 1
+clear
+capacity 2
+insert -1081
+insert 921
+insert! 2849
+insert! 3648
+insert! -1319
+insert! 1847
+insert! -1584
+insert! 684
+insert! -853
+insert! 4069
+insert! -1391
+insert! 2699
+insert! 1741
+insert! 489
+insert! 2975
+insert! -3551
+insert! -3050
+insert! -2733
+insert! -194
+insert! -1002
+insert! 2121
+insert! -3585
+insert! 2928
+insert! 1384
+insert! -1206
+bin 1 -1081
+member -1207 0
+size 2
+bin 1 -1081
+clear
+erase 3758 0
+erase -2120 0
+erase 1472 0
+erase -2563 0
+erase 3478 0
+erase -1475 0
+erase 2840 0
+erase -2760 0
+erase -3729 0
+erase -879 0
+erase -914 0
+erase 1122 0
+erase 4075 0
+erase -1622 0
+erase 3783 0
+member -243 0
+size 0
+member -1993 0
+size 0
+insert 1190
+insert -1136
+member 3174 0
+clear
+erase 218 0
+erase 1171 0
+erase 3511 0
+erase 506 0
+erase -3123 0
+erase -1905 0
+erase -1314 0
+erase -3110 0
+erase -2072 0
+erase -3600 0
+erase -2425 0
+erase -3054 0
+erase -2753 0
+erase 756 0
+insert -410
+insert 4091
+insert! -1071
+insert! 3255
+insert! -1705
+insert! 3669
+insert! -1767
+insert! -3110
+insert! 3712
+insert! -3163
+insert! -503
+insert! 3122
+insert! -1277
+insert! -3271
+insert! 2101
+insert! 1900
+insert! 3620
+load_factor 1.0
+erase 4084 0
+erase -3926 0
+erase -4078 0
+erase 2723 0
+erase 3306 0
+erase 2391 0
+erase 1676 0
+erase -3269 0
+erase -3437 0
+erase -1636 0
+erase 3075 0
+erase -4009 0
+erase 711 0
+erase 1043 0
+erase 2291 0
+erase 3358 0
+erase 2847 0
+erase -1544 0
+erase 4049 0
+erase 1286 0
+erase 143 0
+erase -746 0
+erase 1292 0
+erase 3118 0
+erase -646 0
+erase -2730 0
+erase -1611 0
+erase 2323 0
+capacity 2
+erase 3081 0
+erase 3107 0
+erase -1882 0
+erase 2257 0
+erase 2305 0
+erase -1878 0
+erase 1241 0
+erase 3471 0
+erase -1403 0
+erase 3423 0
+erase 1240 0
+erase -1262 0
+erase 1204 0
+erase -1022 0
+member 54 0
+insert! -1599
+insert! -3483
+insert! -1047
+insert! 3027
+insert! 206
+insert! 1586
+insert! -3124
+insert! 285
+size 2
+empty 0
+size 2
+size 2
+capacity 2
+capacity 2
+empty 0
+erase 1861 0
+insert! 2728
+insert! 3198
+insert! 1706
+insert! -2932
+insert! -1838
+insert! -3209
+insert! -2492
+insert! -3282
+insert! -290
+insert! 3624
+insert! -1142
+insert! -2517
+insert! -2358
+empty 0
+empty 0
+bin 0 -410
+clear
+empty 1
+member -2421 0
+member -738 0
+member -3359 0
+empty 1
+capacity 2
+member 2253 0
+insert 299
+insert 1563
+insert! -523
+insert! 3783
+insert! 1066
+insert! 429
+insert! -2101
+insert! -2839
+insert! 2150
+insert! 520
+insert! -86
+insert! 355
+insert! 3733
+insert! -1677
+insert! 465
+insert! 2772
+insert! 1376
+insert! 696
+insert! -2758
+insert! -264
+insert! -413
+insert! -3572
+insert! -4095
+insert! -1497
+insert! -1098
+insert! -526
+insert! -731
+insert! 741
+insert! 420
+insert! -2018
+insert! -2954
+insert! -3692
+insert! -582
+insert! 2330
+insert! 3976
+insert! 1210
+insert! -2303
+insert! -595
+insert! -2395
+insert! 646
+insert! 3347
+insert! 3563
+insert! -3010
+insert! -3551
+insert! 1754
+insert! -2233
+insert! -2962
+insert! 464
+insert! 1572
+insert! 2554
+insert! 2644
+member 1706 0
+size 2
+erase 3902 0
+load_factor 1.0
+bin 0 1563
+load_factor 1.0
+capacity 2
+size 2
+size 2
+empty 0
+capacity 2
+member 2934 0
+load_factor 1.0
+erase 2730 0
+erase 3945 0
+erase 2691 0
+erase 2479 0
+erase 1533 0
+erase 3571 0
+erase 628 0
+load_factor 1.0
+clear
+insert 553
+insert 2631
+insert! -3610
+insert! 1960
+insert! -1785
+insert! 2895
+insert! -3847
+insert! -489
+erase 1835 0
+load_factor 1.0
+member 1389 0
+bin 1 553
+insert! -3821
+insert! -3662
+insert! 3692
+load_factor 1.0
+insert! -3460
+insert! -982
+insert! -2434
+insert! 3317
+insert! 4054
+insert! -1920
+insert! -1560
+insert! -3958
+insert! -419
+insert! 3509
+insert! 100
+insert! -3346
+insert! -1824
+member -2157 0
+capacity 2
+size 2
+empty 0
+clear
+capacity 2
+member -3080 0
+insert 2249
+insert -1952
+insert! 3829
+insert! -2983
+empty 0
+size 2
+size 2
+size 2
+insert! 3665
+insert! -4008
+insert! -2376
+insert! 2906
+insert! -2858
+capacity 2
+bin 1 2249
+member -3096 0
+erase 319 0
+insert! 1643
+insert! -2233
+insert! 4093
+insert! 1932
+insert! 1775
+insert! -1809
+insert! -1174
+insert! -3990
+insert! -3798
+insert! -2182
+insert! 4052
+insert! -802
+insert! -2555
+insert! 3640
+insert! -2633
+insert! -2230
+insert! -864
+insert! 2185
+insert! -2629
+insert! -2755
+insert! 3284
+insert! -4054
+insert! 3557
+insert! 1306
+insert! 3619
+insert! -2678
+insert! 3520
+erase 3238 0
+erase -1363 0
+erase -2288 0
+erase -2712 0
+erase 44 0
+erase -4036 0
+erase -497 0
+erase -27 0
+erase -1172 0
+erase -1523 0
+erase 1324 0
+erase 2089 0
+erase 2237 0
+erase -3579 0
+load_factor 1.0
+insert! 3641
+insert! -477
+insert! 3305
+insert! 72
+insert! -2923
+insert! -3782
+insert! -3987
+insert! -81
+insert! 600
+insert! -2493
+insert! 2138
+clear
+load_factor 0.0
+size 0
+insert 3175
+insert 2616
+insert! 1858
+insert! 543
+insert! 3315
+insert! 336
+insert! 3675
+member -2702 0
+clear
+empty 1
+member 970 0
+erase 2591 0
+erase -3954 0
+erase 1404 0
+erase -2433 0
+capacity 2
+size 0
+empty 1
+size 0
+load_factor 0.0
+empty 1
+size 0
+capacity 2
+clear
+size 0
+member 2865 0
+member 1540 0
+erase 3119 0
+erase -2715 0
+erase 3848 0
+erase 3234 0
+erase -2379 0
+erase 1410 0
+erase 376 0
+erase -1414 0
+erase 1865 0
+erase 1190 0
+erase 930 0
+erase -1170 0
+erase 2824 0
+clear
+load_factor 0.0
+load_factor 0.0
+erase 3556 0
+erase 1548 0
+size 0
+capacity 2
+clear
+empty 1
+erase -3518 0
+erase 186 0
+erase 3066 0
+erase -1833 0
+member -2931 0
+member -99 0
+erase 2636 0
+erase -1067 0
+erase -3831 0
+erase 2183 0
+erase -2573 0
+member 2839 0
+insert -1471
+insert 1240
+insert! -2124
+insert! 2242
+insert! 3010
+insert! -308
+insert! 3642
+insert! 523
+insert! 1600
+insert! 3949
+insert! 582
+insert! -759
+insert! -940
+insert! -377
+insert! 2829
+insert! -2918
+insert! 156
+insert! 2163
+insert! -2701
+insert! 998
+insert! 3996
+insert! 238
+insert! 4037
+insert! -1645
+insert! 3385
+insert! -3705
+insert! -1824
+insert! -3655
+insert! -2191
+insert! -2077
+insert! 3319
+insert! 3163
+insert! -2956
+insert! 342
+insert! 2961
+insert! -3704
+insert! 633
+insert! 3747
+insert! -4012
+insert! -110
+insert! -1330
+insert! 580
+size 2
+insert! 691
+insert! -1265
+insert! -2066
+insert! 3135
+insert! -2965
+insert! 3719
+insert! 1461
+insert! -769
+insert! -2205
+insert! -268
+insert! -2755
+insert! 2575
+size 2
+member 3548 0
+member -717 0
+insert! -3772
+insert! 3189
+insert! 1177
+insert! 2914
+insert! -3063
+insert! -598
+insert! -756
+insert! -2009
+insert! 2541
+insert! -1083
+insert! 416
+insert! -949
+insert! 2497
+insert! 2697
+insert! -3594
+insert! 739
+insert! 482
+insert! -3069
+empty 0
+member 3992 0
+member 2120 0
+erase 19 0
+erase 2865 0
+erase 774 0
+erase -2876 0
+bin 1 -1471
+capacity 2
+erase 1239 0
+erase 1071 0
+erase 2536 0
+erase -3135 0
+erase -2439 0
+erase 3783 0
+erase 3761 0
+erase 1141 0
+erase 2732 0
+erase -542 0
+erase -56 0
+erase -2367 0
+erase 164 0
+erase 785 0
+erase -64 0
+erase 3085 0
+erase -2105 0
+size 2
+empty 0
+size 2
+member 438 0
+capacity 2
+member -98 0
+load_factor 1.0
+empty 0
+erase 239 0
+erase -2582 0
+erase -1228 0
+erase -383 0
+load_factor 1.0
+erase 832 0
+erase -3992 0
+empty 0
+capacity 2
+capacity 2
+capacity 2
+member -2777 0
+erase 1372 0
+erase -3505 0
+erase -965 0
+erase 2436 0
+erase -3206 0
+erase 381 0
+erase 1646 0
+erase 1341 0
+erase -2410 0
+insert! -170
+insert! -1130
+insert! -586
+erase -1891 0
+erase 485 0
+erase 2816 0
+erase -3180 0
+erase -3467 0
+erase -1961 0
+erase -987 0
+erase 615 0
+erase -227 0
+erase 3071 0
+erase 399 0
+erase 1241 0
+erase -3344 0
+erase -3679 0
+erase -565 0
+insert! 3021
+insert! -3866
+insert! -2654
+insert! -268
+insert! -2703
+insert! -1066
+insert! -2385
+insert! 3462
+capacity 2
+size 2
+erase 3668 0
+erase 3571 0
+erase 3865 0
+erase 2563 0
+erase 2698 0
+erase -217 0
+clear
+empty 1
+size 0
+size 0
+empty 1
+clear
+empty 1
+size 0
+capacity 2
+insert -2288
+insert 173
+insert! -1039
+insert! 1570
+insert! 1052
+insert! -2754
+insert! 3854
+insert! 3504
+empty 0
+clear
+size 0
+empty 1
+empty 1
+capacity 2
+empty 1
+erase 1179 0
+erase 1525 0
+erase 732 0
+erase 1915 0
+erase -2665 0
+erase 3531 0
+erase -388 0
+erase 1709 0
+empty 1
+erase 490 0
+erase 3863 0
+erase -2887 0
+erase -1518 0
+erase -3236 0
+erase 3399 0
+load_factor 0.0
+size 0
+capacity 2
+member -3622 0
+capacity 2
+member 2972 0
+capacity 2
+member 4038 0
+size 0
+insert -820
+insert 548
+insert! 1998
+insert! -3123
+insert! 400
+insert! -2874
+insert! 3901
+insert! -1543
+insert! 3179
+insert! 3122
+insert! 3919
+insert! -1832
+insert! -2570
+insert! 1942
+insert! 952
+insert! 759
+insert! 1448
+insert! -950
+insert! 1261
+insert! -1002
+insert! -3515
+empty 0
+load_factor 1.0
+member -1339 0
+capacity 2
+clear
+size 0
+capacity 2
+capacity 2
+clear
+size 0
+member 3615 0
+load_factor 0.0
+empty 1
+capacity 2
+load_factor 0.0
+size 0
+erase -378 0
+erase -3322 0
+erase 1515 0
+erase -3730 0
+erase -3963 0
+erase -2754 0
+load_factor 0.0
+erase -637 0
+erase -2073 0
+erase 280 0
+erase -2663 0
+insert -15
+insert 205
+insert! 1548
+insert! 3822
+insert! 1333
+insert! -1767
+clear
+insert -2052
+insert -3848
+insert! 810
+insert! 2029
+insert! 2443
+insert! -2149
+insert! 2596
+insert! -1845
+insert! -1892
+insert! 1479
+insert! -3025
+insert! -4037
+insert! 251
+insert! 726
+insert! -3933
+insert! 1091
+insert! -751
+insert! 1316
+insert! -863
+insert! -3677
+insert! -2653
+insert! -409
+insert! -1043
+insert! -1535
+insert! 1537
+insert! 1451
+insert! 3984
+insert! 3018
+insert! 2404
+insert! -500
+insert! -389
+clear
+load_factor 0.0
+empty 1
+clear
+member -342 0
+capacity 2
+member -1610 0
+load_factor 0.0
+capacity 2
+size 0
+empty 1
+load_factor 0.0
+insert 2949
+insert -3486
+insert! 3692
+insert! 2610
+insert! 932
+insert! -3944
+insert! 746
+insert! -505
+insert! -2450
+insert! -2575
+insert! -2689
+insert! 2731
+insert! -2729
+insert! -2454
+insert! 1736
+insert! 2151
+insert! -2248
+insert! -1009
+insert! -677
+insert! 1656
+insert! 1078
+insert! -2411
+insert! -682
+insert! 1656
+insert! -1595
+insert! -1680
+capacity 2
+capacity 2
+member 2607 0
+empty 0
+empty 0
+size 2
+load_factor 1.0
+erase -1529 0
+erase 2800 0
+erase -2581 0
+erase -865 0
+erase -1335 0
+erase -1827 0
+erase 1442 0
+erase 1303 0
+erase 1183 0
+erase 936 0
+load_factor 1.0
+erase -880 0
+erase 3636 0
+erase -693 0
+erase 3558 0
+erase -2712 0
+erase -2421 0
+erase -2496 0
+erase 2747 0
+erase -3824 0
+erase -83 0
+erase 609 0
+erase 2505 0
+erase -504 0
+erase 1705 0
+erase 1213 0
+capacity 2
+bin 1 2949
+bin 0 -3486
+load_factor 1.0
+capacity 2
+member -3322 0
+capacity 2
+clear
+load_factor 0.0
+member -3782 0
+delete
+summary
+exit

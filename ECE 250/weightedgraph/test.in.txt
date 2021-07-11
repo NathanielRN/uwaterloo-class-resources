@@ -1,0 +1,63 @@
+new
+insert 0 1 3.5
+insert 0 2 12.2
+insert 0 3 17.5
+insert 1 2 0.3
+insert 1 3 14.5
+insert 2 3 0.5
+~connected 3 4
+distance 0 3 4.3
+delete
+summary
+
+// IN PROGRESS
+
+new
+// shorter path through other nodes
+insert 0 1 10.0
+insert 0 2 2.0
+insert 2 1 2.0
+distance 0 1 4.0
+delete
+
+// sum of distances is important for shortest path
+new: 10
+insert 0 1 5.0
+insert 0 2 1.0
+insert 0 3 1.0
+insert 0 4 1.0
+insert 0 5 1.0
+insert 0 6 1.0
+insert 0 7 1.0
+insert 7 5 1.0
+distance 0 1 5.0
+delete
+
+// breaks if you don't replace properly
+new
+insert 0 1 10.0
+insert 0 2 2.0
+insert 2 1 2.0
+distance 0 1 4.0
+insert 0 1 5.0
+insert 0 2 1.0
+insert 0 3 1.0
+delete
+
+// replace the edge
+new
+insert 0 1 5.0
+insert 0 1 1.0
+distance 0 1 1.0
+delete
+
+// be able to create of a smaller size
+new: 3
+insert 0 1 2
+insert 2 1 4
+insert! 3 7 2
+insert! -1 -2 3
+distance 2 1 4
+delete
+
+summary

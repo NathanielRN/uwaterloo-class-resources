@@ -1,0 +1,12 @@
+new
+insert 31
+insert 191
+erase 31 1
+insert 191
+erase 191 1
+empty 1
+size 0
+erase 191 0
+delete
+summary
+exit

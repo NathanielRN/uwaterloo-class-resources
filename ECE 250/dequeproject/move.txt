@@ -1,0 +1,24 @@
+new
+push_front 3
+push_front 4
+push_front 5
+push_front 6
+move
+	front 6
+	pop_front
+	front 5
+	pop_front 
+	front 4
+	delete
+exit
+assign
+	front 6
+	pop_front
+	front 5
+	pop_front 
+	front 4
+	delete
+exit
+front 6
+delete
+summary

@@ -1,0 +1,199 @@
+// Empty Test
+new: 10
+empty 1
+capacity 16
+size 0
+front!
+back!
+pop_front!
+pop_back!
+delete
+summary
+//
+// Push/Pop front
+new: 16
+push_front 1
+push_front 2
+push_front 3
+front 3
+back 1
+size 3
+capacity 16
+//
+pop_front
+pop_front
+front 1
+back 1
+size 1
+capacity 16
+empty 0
+delete
+summary
+//
+// Push/Pop back
+new: 16
+push_back 1
+push_back 2
+push_back 3
+back 3
+front 1
+size 3
+capacity 16
+//
+pop_back
+front 1
+back 2
+size 2
+capacity 16
+empty 0
+delete
+summary
+//
+// Upsize with loop-around (push_back)
+new: 20
+push_front: 20
+size 20
+capacity 20
+push_back 99
+capacity 40
+size 21
+front 19
+back 99
+delete
+summary
+//
+// Upsize without loop-around (push_front)
+new: 20
+push_back: 20
+size 20
+capacity 20
+push_front 99
+capacity 40
+size 21
+front 99
+back 19
+delete
+summary
+//
+// Downsize without loop-around (pop_back)
+new: 20
+push_back: 30
+pop_back: 19
+size 11
+capacity 40
+pop_back
+size 10
+capacity 20
+front 0
+back 9
+delete
+summary
+//
+// Downsize with loop-around
+new: 20
+// set iback/ifront to middle without resize (pop_front)
+push_back: 39
+pop_front: 25
+size 14
+capacity 40
+push_back: 6
+pop_front: 9
+size 11
+capacity 40
+// downsize
+pop_front
+size 10
+capacity 20
+front 35
+back 5
+delete
+summary
+//
+// Clear empty and full
+new: 20
+clear
+size 0
+empty 1
+capacity 20
+push_front: 80
+clear
+size 0
+empty 1
+capacity 20
+delete
+summary
+//
+// Move and copy empty
+new: 16
+move
+    empty 1
+    size 0
+    assign
+        empty 1
+        size 0
+        delete
+        exit
+    delete
+    exit
+empty 1
+size 0
+delete
+summary
+//
+// Move and copy supersize
+new: 20
+push_back: 70
+assign
+    size 70
+    front 0
+    back 69
+    pop_back
+    move
+        size 69
+        front 0
+        back 68
+        delete
+        exit
+    pop_back
+    delete
+    exit
+size 70
+front 0
+back 69
+delete
+summary
+//
+// Move and copy with loop-around
+new: 20
+push_front: 10
+move
+    size 10
+    front 9
+    back 0
+    assign
+        size 10
+        front 9
+        back 0
+        delete
+        exit
+    delete
+    exit
+size 10
+front 9
+back 0
+delete
+summary
+//
+// Spam push/pop
+new
+push_front: 999999
+push_back: 999999
+pop_back: 999999
+pop_front: 999999
+empty 1
+capacity 16
+delete
+summary
+// Done
+details
+exit

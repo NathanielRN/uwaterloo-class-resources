@@ -1,0 +1,124 @@
+//Insert + membership
+new
+size 0
+capacity 32
+load_factor 0
+empty 1
+insert 0
+insert 2
+insert 32
+size 3
+empty 0
+bin 0 0
+bin 2 2
+bin 1 32
+member 0 1
+member 2 1
+member 32 1
+//Probe past end of array
+insert 31
+insert 63
+member 31 1
+member 63 1
+size 5
+bin 31 31
+bin 5 63
+load_factor 0.15625
+delete
+///////////////////////////////////////////////////////
+//Full hashtable
+new: 2
+size 0
+capacity 4
+load_factor 0
+empty 1
+insert 0
+insert 1
+insert 3
+insert 4
+size 4
+load_factor 1
+member 5 0
+member 6 0
+member 7 0
+member 100 0
+insert! 5
+delete
+///////////////////////////////////////////////////////
+//Empty hashtable
+new: 2
+size 0
+member 0 0
+member 1 0
+member 2 0
+member 3 0
+delete
+///////////////////////////////////////////////////////
+//Erase and insert
+new: 3
+capacity 8
+insert 6
+insert 14
+insert 7
+insert 15
+size 4
+load_factor 0.5
+erase 6 1
+erase 14 1
+erase 7 1
+erase 15 1
+erase 15 0
+size 0
+empty 1
+load_factor 0.5
+insert 6
+insert 14
+insert 7
+insert 15
+size 4
+empty 0
+load_factor 0.5
+delete
+/////////////////////////////////////////////////////////
+//Erase and member
+new: 3
+insert 0
+insert 1
+insert 2
+insert 9
+insert 10
+size 5
+erase 0 1
+erase 1 1
+erase 2 1
+size 2
+empty 0
+member 0 0
+member 1 0
+member 2 0
+member 9 1
+member 10 1
+delete
+/////////////////////////////////////////////////////////
+//Clear
+new: 2
+insert 0
+insert 10
+insert 20
+insert 30
+size 4
+clear
+size 0
+capacity 4
+empty 1
+load_factor 0
+member 0 0
+member 10 0
+member 20 0
+member 30 0
+insert 0
+erase 10 0
+delete
+///////////////////////////////////////////////////////////
+summary
+details

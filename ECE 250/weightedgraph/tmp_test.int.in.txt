@@ -1,0 +1,1062 @@
+new: 51
+~connected 17 38
+~connected 5 37
+~connected 9 17
+distance! 18 52
+~connected 42 46
+~connected 46 14
+~connected 31 14
+~connected 31 5
+~connected 5 47
+distance! 37 53
+~adjacent 26 4
+insert 41 16 60.14
+insert! 35 30 -75.14
+insert! 48 26 -40.21
+insert! 51 21 44.26
+~connected 29 44
+distance! 31 53
+~connected 27 0
+~connected 31 39
+distance! 53 24
+~connected 20 23
+~connected 27 10
+~connected 34 20
+~connected 17 21
+~connected 15 43
+~connected 19 28
+~connected 27 36
+distance! -1 3
+~connected 30 24
+~connected 39 48
+~connected 14 36
+insert 32 36 37.050000000000004
+insert! 4 6 -98.88
+insert 8 7 46.5
+insert! 20 51 40.25
+degree 18 0
+edge_count 3
+edge_count 3
+~connected 10 8
+~connected 41 1
+~connected 2 38
+~connected 3 0
+~connected 3 45
+distance! 49 52
+~connected 36 26
+~connected 46 33
+~connected 16 12
+edge_count 3
+~adjacent 13 11
+~connected 46 10
+~connected 0 13
+~connected 46 17
+~connected 19 27
+~connected 48 13
+~connected 5 18
+~connected 36 50
+~connected 1 28
+~connected 22 9
+~connected 9 4
+~connected 14 13
+~connected 5 42
+insert 48 28 85.07000000000001
+insert! 41 50 -50.04
+~connected 40 34
+~connected 16 50
+distance! 17 -1
+~connected 21 45
+~connected 32 42
+~connected 32 7
+distance! -1 7
+~connected 40 3
+~connected 31 42
+~connected 47 28
+~connected 11 24
+~connected 41 20
+degree 20 0
+degree 35 0
+distance! 8 51
+~connected 28 41
+~connected 29 24
+degree 47 0
+edge_count 4
+edge_count 4
+degree 17 0
+edge_count 4
+edge_count 4
+~adjacent 6 27
+~connected 48 44
+~connected 14 7
+~connected 49 2
+~connected 5 13
+~connected 11 50
+~connected 32 29
+distance! -1 13
+~connected 2 1
+~connected 12 36
+~connected 30 34
+~connected 22 10
+~connected 7 39
+distance! 53 23
+~connected 26 1
+degree 18 0
+edge_count 4
+insert 35 38 27.88
+insert! 46 38 -38.77
+insert 38 33 38.84
+adjacent! 53 28
+edge_count 6
+insert! 4 13 -63.17
+insert! 52 31 96.84
+insert 12 38 7.98
+~connected 28 47
+~connected 13 29
+degree 48 1
+insert! 16 49 -90.3
+insert! 4 4 27.38
+insert! -1 18 8.57
+insert 10 47 58.81
+~adjacent 48 32
+edge_count 8
+adjacent! 17 53
+~adjacent 18 24
+degree 24 0
+~adjacent 42 4
+degree 3 0
+~connected 50 37
+~connected 4 3
+distance! 53 0
+~connected 22 12
+~connected 39 20
+~connected 2 37
+~connected 21 34
+~connected 22 18
+~connected 16 5
+~connected 46 24
+distance! 51 47
+~connected 2 18
+~connected 18 30
+~connected 4 28
+~connected 24 10
+distance 32 32 0
+~connected 12 4
+~adjacent 6 38
+edge_count 8
+~connected 30 34
+~connected 29 13
+~connected 33 26
+~connected 39 20
+~connected 26 36
+~connected 42 23
+distance! 0 52
+~adjacent 47 35
+edge_count 8
+degree 12 1
+~adjacent 30 9
+insert! 49 11 -52.480000000000004
+insert! 6 29 -85.34
+insert! 50 52 14.42
+insert! 49 1 -54.47
+~adjacent 8 18
+insert! 1 21 -45.5
+insert 46 50 30.92
+edge_count 9
+edge_count 9
+insert 11 43 3.0500000000000003
+degree 4 0
+degree 10 1
+degree 29 0
+insert 48 0 11.69
+insert! 29 8 -51.6
+~adjacent 32 15
+~adjacent 7 22
+~adjacent 14 36
+~adjacent 37 26
+degree 10 1
+~adjacent 41 25
+~adjacent 7 4
+degree 16 1
+edge_count 11
+insert! 44 8 -63.660000000000004
+insert! 19 -1 -41.5
+insert 2 15 47.32
+insert 42 47 0.86
+insert! 8 4 -55.53
+insert 24 35 4.47
+~adjacent 39 18
+distance! -1 45
+~connected 2 6
+~connected 44 28
+distance! -1 1
+~connected 34 33
+~connected 9 14
+~connected 44 48
+~connected 45 14
+~connected 26 34
+~connected 46 15
+~connected 29 18
+distance! 23 -1
+~connected 25 4
+~connected 47 34
+~connected 31 37
+~connected 40 15
+degree 3 0
+~adjacent 22 0
+degree 37 0
+degree 46 1
+insert 39 26 14.14
+insert! 11 41 -94.28
+insert! 53 31 -92.86
+insert! 16 12 -34.02
+~connected 5 25
+~connected 47 29
+~connected 33 20
+~connected 1 19
+~connected 23 33
+~connected 1 18
+~connected 13 29
+~connected 18 30
+~connected 12 13
+~connected 43 18
+distance! -1 33
+~connected 16 10
+edge_count 15
+degree 17 0
+adjacent! 33 51
+edge_count 15
+~connected 22 33
+~connected 4 5
+distance 18 18 0
+distance! 51 32
+~connected 9 44
+~connected 20 41
+~connected 27 14
+~connected 49 40
+~connected 12 25
+~connected 44 9
+~connected 5 9
+~connected 25 42
+distance! 9 51
+~connected 50 31
+~connected 7 27
+~connected 12 16
+~connected 43 42
+~connected 44 19
+~connected 26 0
+~connected 47 17
+distance 38 24 32.35
+~connected 35 4
+distance! -1 23
+~connected 36 1
+~connected 4 16
+~connected 18 17
+~connected 22 26
+~connected 43 46
+~connected 37 6
+degree 12 1
+insert! 9 46 -90.57000000000001
+~adjacent 38 20
+degree 24 1
+degree 0 1
+~adjacent 28 46
+edge_count 15
+~adjacent 6 44
+~adjacent 30 31
+insert 36 24 75.09
+insert 4 46 60.71
+insert! 15 28 -66.72
+insert 11 50 88.9
+insert! 9 37 -53.89
+insert! 38 20 -7.0
+insert! 45 21 -41.99
+~adjacent 15 35
+adjacent! 53 22
+degree 20 0
+degree 43 1
+edge_count 18
+insert 24 15 21.89
+insert! 18 27 -63.64
+insert! 24 6 -72.01
+~connected 26 11
+~connected 19 20
+~connected 48 37
+~connected 22 13
+distance! 5 53
+distance 47 47 0
+distance! 51 8
+~connected 43 48
+~connected 36 34
+~connected 12 34
+~connected 39 10
+distance! 11 -1
+~connected 37 13
+~connected 29 44
+~connected 12 45
+distance 24 24 0
+~connected 29 24
+~connected 5 17
+distance! 51 5
+edge_count 19
+edge_count 19
+adjacent! 4 -1
+~adjacent 1 17
+insert! 44 27 -94.5
+~connected 18 5
+~connected 40 37
+~connected 11 49
+~connected 4 20
+~connected 7 29
+distance! 53 21
+distance! 33 52
+~connected 6 17
+degree 33 1
+insert! 32 26 -53.97
+insert 49 16 0.58
+degree 21 0
+degree 38 3
+~adjacent 3 34
+edge_count 20
+insert 10 26 88.47
+~adjacent 13 42
+insert 38 46 31.76
+insert 13 6 42.29
+insert! 29 2 -61.28
+insert! 26 37 -50.65
+degree 36 2
+insert 16 40 87.75
+edge_count 24
+insert! 15 48 -0.9400000000000001
+insert 11 4 95.83
+insert! 5 16 -47.15
+edge_count 25
+edge_count 25
+edge_count 25
+~connected 0 43
+~connected 17 19
+~connected 15 9
+distance! 51 53
+~connected 21 47
+~connected 6 5
+~connected 45 2
+~connected 0 32
+~connected 32 37
+~connected 28 12
+~connected 42 8
+~connected 16 34
+~connected 13 14
+distance! 20 53
+~connected 26 36
+~connected 35 1
+~connected 9 36
+degree 49 1
+~connected 30 16
+~connected 19 44
+~connected 21 30
+~connected 41 2
+~connected 3 4
+adjacent! 37 51
+insert! 34 38 -27.740000000000002
+insert! 35 7 -45.38
+insert 26 0 96.13
+insert 5 32 16.89
+edge_count 27
+insert! 20 23 -32.47
+insert! 51 20 20.14
+insert! 49 42 -30.73
+~connected 15 14
+degree 14 0
+edge_count 27
+distance! 51 47
+~connected 49 30
+distance 0 42 244.27
+distance 43 46 122.87
+~connected 14 3
+~connected 21 48
+~connected 32 10
+~connected 2 41
+~connected 47 27
+~connected 2 6
+~connected 49 14
+distance 47 26 147.28
+~connected 42 29
+~connected 7 46
+distance! 49 52
+distance! 9 51
+~connected 46 9
+distance! 39 51
+~adjacent 49 32
+~adjacent 24 8
+insert 46 43 0.41000000000000003
+insert 34 13 45.550000000000004
+insert 50 17 62.32
+insert! 32 27 -9.9
+adjacent! -1 23
+degree 22 0
+~connected 20 19
+~adjacent 12 15
+edge_count 30
+insert 48 30 76.05
+insert! 2 45 -98.84
+degree 15 2
+distance 4 17 153.95
+distance! 27 -1
+~connected 20 43
+~connected 40 5
+~connected 49 6
+~connected 26 35
+~connected 30 1
+~connected 46 45
+~connected 15 27
+~connected 36 48
+insert! 22 53 -35.800000000000004
+insert! 9 3 -52.38
+insert! 30 17 -33.02
+~connected 31 30
+distance! 29 -1
+~connected 16 28
+~connected 19 33
+insert 45 19 29.16
+insert! 22 32 -66.64
+insert 28 21 84.22
+edge_count 33
+~adjacent 15 13
+degree 32 2
+degree 40 1
+insert 16 0 73.22
+insert! 11 3 -19.42
+insert! 51 44 -15.07
+insert! 43 43 -84.9
+edge_count 34
+degree 37 0
+insert! 45 10 -44.39
+~connected 44 48
+~connected 2 45
+~connected 10 9
+~connected 27 23
+distance! 50 51
+~connected 45 35
+~connected 48 3
+~connected 36 13
+~connected 45 34
+~connected 33 1
+~connected 34 40
+~connected 20 1
+distance! 49 52
+~connected 49 1
+~connected 19 5
+distance 31 31 0
+~connected 40 35
+distance 26 16 169.35
+~connected 7 28
+~adjacent 9 47
+insert 47 1 87.49
+insert 39 47 21.900000000000002
+distance! -1 30
+~connected 35 44
+distance 36 5 53.940000000000005
+distance 42 16 206.25
+~connected 43 42
+distance 43 12 40.150000000000006
+~connected 18 15
+~adjacent 46 23
+insert! 21 42 -1.57
+insert 20 42 5.33
+edge_count 37
+degree 39 2
+~adjacent 29 19
+edge_count 37
+degree 31 0
+edge_count 37
+degree 6 1
+degree 10 2
+distance! 52 37
+~connected 37 19
+distance 1 20 93.67999999999999
+~connected 29 6
+distance 39 28 207.03
+~connected 24 3
+distance 42 42 0
+~connected 40 3
+~connected 45 43
+~connected 15 47
+~connected 29 36
+~connected 8 18
+~connected 8 38
+~connected 28 29
+~connected 50 45
+~connected 7 16
+~connected 39 37
+~connected 38 1
+~connected 40 12
+edge_count 37
+~adjacent 0 30
+edge_count 37
+degree 0 3
+~connected 42 43
+distance! -1 51
+~connected 25 11
+~connected 26 25
+distance! 53 3
+~connected 23 26
+distance! 51 44
+~connected 39 23
+edge_count 37
+~connected 43 6
+~connected 22 3
+~connected 34 28
+~connected 44 38
+distance 47 0 132.17000000000002
+~connected 42 46
+~connected 16 3
+~connected 48 38
+~connected 29 32
+~connected 38 20
+~connected 2 40
+~connected 47 18
+distance 38 46 31.76
+distance 48 48 0
+~connected 31 22
+distance 42 21 314.01
+~connected 25 17
+degree 22 0
+edge_count 37
+distance! 53 21
+~connected 22 50
+~connected 0 3
+distance 12 36 115.42
+distance! 53 48
+~connected 12 34
+~connected 20 44
+~connected 31 12
+~connected 12 44
+~connected 18 33
+edge_count 37
+degree 19 1
+distance! 51 36
+~connected 16 13
+~connected 49 50
+~connected 31 28
+distance 36 38 107.44
+~connected 8 26
+~connected 14 7
+~connected 28 2
+~connected 20 15
+distance 48 16 84.91
+degree 0 3
+distance 35 15 26.36
+~connected 32 8
+~connected 25 44
+~connected 13 8
+insert! 27 21 -82.54
+insert! 34 4 -33.27
+insert! 33 21 -34.68
+~connected 18 23
+~connected 35 13
+distance! 42 -1
+~connected 17 48
+~connected 48 46
+distance! 51 6
+~connected 7 41
+distance 12 38 7.98
+~connected 6 24
+~connected 14 26
+distance 28 20 235.12
+~connected 31 34
+distance! 7 51
+distance! 51 42
+~connected 12 1
+~connected 4 40
+~connected 47 7
+~connected 20 5
+~connected 13 23
+~connected 3 45
+~connected 27 41
+insert 0 18 52.480000000000004
+insert 34 40 97.79
+insert! 46 37 -58.68
+insert! 5 42 -22.990000000000002
+insert 18 4 91.74
+insert 46 49 46.89
+insert! 18 32 -98.5
+insert 49 14 49.730000000000004
+~connected 13 25
+distance 40 34 97.79
+distance 35 38 27.88
+distance 49 30 161.54
+~connected 27 6
+distance 26 14 219.66000000000003
+distance 39 48 121.96
+~connected 31 47
+~connected 30 37
+~connected 43 44
+distance! -1 43
+distance 49 2 180.20999999999998
+distance 14 39 233.8
+~connected 7 13
+distance 15 13 364.56
+distance 34 10 443.36
+distance 39 13 414.58000000000004
+~connected 3 20
+distance 36 2 144.3
+distance 0 1 219.65999999999997
+~connected 8 31
+distance 34 48 270.45
+distance 26 26 0
+distance! 10 53
+~connected 31 7
+~connected 37 1
+~connected 22 25
+distance! 52 0
+distance 16 10 257.82
+~connected 37 7
+distance 30 33 279.03
+~connected 20 8
+~connected 21 7
+distance 36 10 444.49
+distance 50 16 78.39
+distance! -1 7
+distance! 40 52
+edge_count 42
+~adjacent 13 36
+insert! 6 35 -52.81
+insert 37 39 57.39
+~connected 29 20
+~connected 39 45
+distance 12 5 169.36
+~connected 22 39
+distance 46 28 217.45
+distance 28 15 303.45000000000005
+distance 4 46 60.71
+~connected 36 31
+distance 18 24 216.55999999999997
+distance 11 49 50.35
+distance 4 16 108.17999999999999
+distance 17 20 352.28999999999996
+distance 46 47 252.85999999999999
+~connected 23 50
+distance 10 21 365.58000000000004
+~connected 16 25
+distance 43 12 40.150000000000006
+distance! 36 53
+distance 32 13 454.81000000000006
+edge_count 43
+insert! 52 34 18.36
+insert 4 13 67.47
+~connected 29 11
+distance! 53 30
+~connected 0 44
+distance! 17 -1
+distance 12 39 270.7
+~connected 8 17
+~connected 44 8
+distance 35 28 277.09
+distance 39 28 207.03
+~connected 50 45
+distance 38 6 202.23
+~connected 28 9
+~connected 49 23
+~connected 8 0
+distance 38 17 125.0
+~connected 34 22
+~connected 44 13
+distance 18 5 345.59
+distance 20 15 345.05
+distance 5 30 401.57
+distance! 2 51
+distance 21 35 361.31
+~connected 12 27
+~connected 31 39
+~connected 44 11
+~connected 27 14
+distance! 46 51
+~connected 31 26
+distance! -1 4
+insert! 18 0 -66.01
+insert 6 13 28.95
+degree 35 2
+degree 19 1
+edge_count 44
+adjacent! 53 52
+distance 5 1 533.4899999999999
+~connected 29 31
+~connected 3 12
+distance 46 40 135.22
+~connected 8 47
+distance! 10 51
+~connected 43 44
+distance 46 6 157.13
+distance 28 20 235.12
+distance 18 4 91.74
+~connected 32 31
+distance! 52 16
+distance! 51 36
+distance 14 14 0
+distance 34 6 74.5
+~connected 7 49
+distance 47 11 256.32
+edge_count 44
+~adjacent 27 41
+degree 38 4
+~connected 22 4
+distance 35 46 59.64
+~connected 23 25
+~connected 2 27
+distance! 43 -1
+distance! 53 33
+distance 1 10 146.3
+distance 37 28 264.42
+distance 36 47 392.05999999999995
+~connected 7 10
+degree 11 3
+edge_count 44
+insert 1 44 52.03
+insert! 44 37 -80.89
+insert 29 24 52.88
+~adjacent 48 1
+~connected 3 5
+distance 47 1 87.49
+distance 15 4 146.71
+distance! 20 52
+~connected 8 29
+distance 2 5 198.24
+distance 0 34 257.24
+distance 38 4 92.47
+distance! 50 51
+distance! 51 22
+~connected 3 6
+~connected 49 45
+degree 43 2
+edge_count 46
+~adjacent 21 47
+insert! 12 32 -87.95
+~adjacent 36 40
+distance 46 36 139.2
+distance 28 6 337.40000000000003
+~connected 14 19
+distance 20 24 323.16
+~connected 9 1
+~connected 10 31
+distance 17 29 210.23000000000002
+distance 36 11 142.66
+~connected 6 3
+distance 18 15 238.45
+~connected 7 15
+distance 14 41 110.45
+distance 40 36 274.41999999999996
+distance 38 21 333.42999999999995
+distance 13 18 159.20999999999998
+distance 17 26 310.06
+degree 9 0
+insert! 48 14 -72.18
+insert! 27 12 -86.10000000000001
+insert 33 13 75.45
+insert! 51 45 -2.42
+distance! 32 51
+distance 4 42 277.25
+~connected 3 9
+~connected 22 20
+~connected 1 23
+~connected 25 6
+distance 28 50 248.37000000000006
+~connected 3 38
+~connected 15 8
+~connected 14 23
+~connected 37 31
+~connected 34 27
+~connected 3 25
+distance 11 21 305.13
+~connected 22 35
+distance 14 20 261.89
+~connected 50 45
+~connected 25 21
+distance 29 6 228.47
+degree 33 2
+edge_count 47
+degree 27 0
+~adjacent 15 8
+edge_count 47
+edge_count 47
+insert! 18 4 -8.78
+insert! 25 16 -22.87
+insert 3 21 57.1
+adjacent! 41 51
+degree 28 2
+edge_count 48
+insert! 39 52 -61.53
+insert! 1 38 -83.66
+insert 17 12 14.0
+edge_count 49
+adjacent! 1 52
+degree 6 1
+insert! 16 21 -27.02
+insert 20 45 10.56
+insert 15 14 97.55
+insert! 20 49 -26.75
+~adjacent 48 15
+edge_count 51
+~adjacent 28 26
+~adjacent 2 50
+distance 42 21 314.01
+~adjacent 16 26
+distance 15 44 478.38
+distance 30 33 279.03
+distance 35 46 59.64
+distance 29 12 93.21000000000001
+~connected 23 34
+~connected 45 9
+~connected 0 27
+distance 7 8 46.5
+distance 41 21 314.34000000000003
+distance 50 28 248.37
+distance 20 12 298.79
+distance 37 41 301.02
+distance 47 28 228.93
+distance 46 21 301.66999999999996
+distance 46 4 60.71
+distance 13 15 168.53000000000003
+insert 29 17 61.43
+insert 47 14 98.68
+insert 23 25 18.66
+insert! 52 42 -80.29
+~adjacent 7 42
+~adjacent 25 9
+insert! 2 37 -38.69
+insert! 46 46 -94.06
+edge_count 54
+~adjacent 8 1
+adjacent! 52 16
+insert! 45 24 -2.65
+insert! 7 53 -52.52
+insert 10 50 26.48
+degree 33 2
+~adjacent 48 26
+degree 45 2
+edge_count 55
+distance 34 16 185.54000000000002
+distance! 18 51
+~connected 31 33
+distance! 52 44
+distance 14 0 123.53
+distance! 7 52
+distance 35 5 133.5
+distance 43 37 195.91000000000003
+distance 35 11 63.099999999999994
+distance 37 28 264.42
+distance 33 36 146.28
+distance 35 4 120.35
+edge_count 55
+edge_count 55
+degree 14 3
+~adjacent 7 46
+insert! 44 53 58.370000000000005
+insert! 33 33 82.78
+insert 38 50 25.44
+insert 31 8 25.400000000000002
+degree 36 2
+insert 24 29 43.81
+insert 17 35 51.33
+insert 17 40 6.9
+insert! 36 -1 -68.79
+insert! 32 37 -95.94
+~adjacent 4 3
+edge_count 59
+insert 24 35 65.98
+insert! 46 51 -60.57
+insert 23 25 24.77
+insert! 15 35 -78.08
+insert 9 34 10.33
+~adjacent 36 27
+distance 32 41 342.03000000000003
+distance 41 2 255.32
+~connected 43 31
+distance 2 38 163.07
+~connected 7 25
+insert! 46 40 -84.38
+insert 22 50 59.83
+insert! 41 30 -29.990000000000002
+insert! 0 17 -65.24
+edge_count 61
+degree 11 3
+degree 16 4
+~adjacent 20 49
+insert! 16 16 36.11
+edge_count 61
+edge_count 61
+insert! 47 6 -87.62
+insert 7 13 12.040000000000001
+~adjacent 19 5
+edge_count 62
+~connected 23 15
+distance 5 32 16.89
+distance 18 47 184.65
+distance 5 4 315.35999999999996
+distance 35 36 141.07
+distance 10 22 86.31
+distance 31 13 83.94000000000001
+distance 37 11 198.96
+edge_count 62
+~adjacent 37 43
+distance 30 46 208.43
+distance 1 31 396.45
+~connected 30 23
+distance 2 8 335.90000000000003
+distance 36 3 556.14
+distance 40 12 20.9
+distance 47 43 116.62
+distance 31 21 476.61
+distance 34 3 495.32000000000005
+distance 3 0 238.07999999999998
+distance! 13 52
+distance 50 42 86.15
+~connected 30 27
+distance 12 4 100.45
+distance 6 46 157.13
+distance 14 41 110.45
+distance 30 43 208.84
+distance 30 42 220.77
+distance 2 16 195.18000000000004
+insert! 43 33 -55.09
+edge_count 62
+insert! 18 28 -97.13
+insert 6 41 19.240000000000002
+insert! 9 29 -68.22
+insert 42 27 46.35
+~adjacent 44 4
+adjacent! 20 53
+distance 27 49 195.62
+distance 22 40 114.15
+distance 39 4 198.82000000000002
+distance 0 9 237.43000000000004
+distance! 8 -1
+distance 34 46 158.43
+distance 33 47 149.57
+distance 36 26 309.34
+~adjacent 27 10
+~adjacent 28 24
+distance 32 27 363.94000000000005
+distance 5 30 459.74
+distance 10 36 220.87
+distance 13 7 12.040000000000001
+distance 28 34 323.86
+distance 41 6 19.240000000000002
+distance 27 10 106.02000000000001
+~connected 25 1
+distance 18 37 220.14
+distance 44 36 419.20000000000005
+distance 27 10 106.02000000000001
+~connected 44 25
+distance 6 36 312.19000000000005
+distance 0 50 151.61
+distance 19 40 185.51999999999998
+distance 48 45 160.61
+distance 18 21 233.46
+distance 38 18 184.20999999999998
+~connected 10 25
+distance! -1 48
+distance 19 43 162.53
+distance 14 2 144.87
+distance 1 19 133.4
+distance 44 3 509.77
+distance 34 12 118.69000000000001
+distance 30 43 208.84
+distance! 51 31
+distance 49 17 95.23
+~adjacent 32 34
+degree 42 3
+distance 9 30 325.16999999999996
+distance 15 4 208.22
+distance 2 21 449.38
+distance 7 30 281.33
+distance 13 32 320.29
+distance 37 24 283.88
+distance 16 42 149.85000000000002
+distance! -1 10
+~connected 35 25
+distance 50 11 34.38
+distance 9 15 242.15000000000003
+distance 7 0 193.59
+~connected 25 5
+~adjacent 32 21
+degree 11 3
+degree 29 2
+degree 22 1
+~adjacent 20 30
+distance 48 31 277.18
+distance 19 17 178.61999999999998
+distance 3 18 290.56
+distance! 19 -1
+distance 44 38 250.24999999999997
+distance! 51 9
+distance 10 12 59.900000000000006
+distance 49 49 0
+distance 4 44 316.44000000000005
+distance 16 22 138.22
+distance 46 47 116.21000000000001
+distance 49 26 169.93
+distance 4 47 176.92000000000002
+distance 28 10 274.8500000000001
+distance 37 29 273.43
+distance 43 28 217.86
+distance 45 5 350.37000000000006
+~connected 35 25
+distance 8 36 341.78
+distance 17 6 165.22
+distance 30 39 198.01
+distance! -1 2
+~connected 25 10
+edge_count 64
+edge_count 64
+~adjacent 44 7
+edge_count 64
+insert! 11 16 -48.33
+edge_count 64
+distance 26 34 267.06
+distance! -1 13
+distance 1 50 172.78
+distance 44 20 145.71
+distance! 48 53
+distance 30 1 307.4
+distance 40 5 241.17000000000002
+distance 15 8 288.58000000000004
+distance! -1 20
+distance 30 40 248.70999999999998
+distance! 51 34
+distance! -1 27
+distance! 44 -1
+distance 37 50 164.58
+degree 11 3
+degree 35 3
+insert 26 2 28.87
+insert! 32 51 63.51
+distance 36 11 204.17
+~connected 25 42
+distance! 32 -1
+distance 31 49 192.85000000000005
+distance 2 35 135.19
+distance 21 5 504.21999999999997
+distance 21 22 392.42
+distance 15 4 208.22
+distance! -1 17
+distance! 52 51
+distance 4 10 118.11
+distance 48 30 76.05
+distance 30 33 279.03
+distance 44 42 140.38
+insert 29 23 80.5
+insert 17 42 36.800000000000004
+insert! 50 39 -21.97
+edge_count 67
+degree 37 1
+distance 40 46 60.64
+distance 26 8 268.51
+distance 14 45 115.43
+distance! 27 53
+distance 36 11 204.17
+distance 7 2 250.88000000000005
+edge_count 67
+distance 15 25 170.97
+distance 46 27 136.89000000000001
+distance 36 13 283.24
+distance 5 33 261.73
+distance 32 49 281.31000000000006

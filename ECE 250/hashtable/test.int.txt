@@ -1,0 +1,226 @@
+// size() tests:
+new
+size 0
+insert 78
+size 1
+erase 78 1
+size 0
+insert 56
+insert 346
+insert 85739
+insert 35
+size 4
+clear
+size 0
+delete
+
+// capacity() tests:
+new
+capacity 32
+delete
+
+new: 3
+capacity 8
+insert 6
+clear
+capacity 8
+delete
+
+new: 8
+capacity 256
+delete
+
+// load_factor() tests:
+new
+load_factor 0
+insert 56
+load_factor 0.03125
+erase 56 1
+load_factor 0.03125
+insert 54
+load_factor 0.0625
+clear
+load_factor 0
+delete
+
+new: 3
+load_factor 0
+insert 75
+load_factor 0.125
+clear
+load_factor 0
+delete
+
+// empty() tests:
+new
+empty 1
+insert 12
+empty 0
+erase 12 1
+empty 1
+insert 56
+insert 42
+empty 0
+clear
+empty 1
+delete
+
+// member() tests:
+new
+insert 56
+member 56 1
+erase 56 1
+member 56 0
+clear
+insert 0
+insert 256
+erase 0 1
+member 256 1
+insert 0
+insert 1024
+erase 0 1
+erase 256 1
+member 1024 1
+clear
+member 0 0
+member 256 0
+member 1024 0
+delete
+
+new: 3
+insert 0
+insert 1
+insert 2
+insert 3
+insert 4
+insert 5
+insert 6
+insert 7
+member 8 0
+erase 7 1
+insert 8
+member 8 1
+erase 8 1
+erase 6 1
+erase 5 1
+erase 4 1
+erase 3 1
+erase 2 1
+erase 1 1
+erase 0 1
+member 8 0
+delete
+
+// bin() tests:
+new
+insert 5
+bin 5 5
+// XXX the following tests undefined behaviour XXX
+// out of range accesses:
+// bin -1
+// bin 7038693
+// bin 12 0
+delete
+
+// insert() tests:
+// note: these tests also check the behaviour of the
+// hashing function since it is not part of the public
+// interface.
+//
+// basic tests:
+new
+insert 0
+insert 256
+insert 512
+insert 1024
+bin 0 0
+bin 1 256
+bin 3 512
+bin 6 1024
+delete
+// wrap test:
+new: 3
+insert 0
+insert 256
+insert 512
+insert 1024
+insert 2048
+bin 0 0
+bin 1 256
+bin 2 2048
+bin 3 512
+bin 6 1024
+delete
+// overflow test:
+new: 3
+insert 0
+insert 1
+insert 2
+insert 3
+insert 4
+insert 5
+insert 6
+insert 7
+insert! 8
+delete
+// 'step over' test:
+// note: this test was posted by @Example in this 
+// channel on March 3 2018. This test is not my
+// work, it's much to clever :-)
+//
+// this is also a good test of erase()
+new
+insert 31
+insert 191
+erase 31 1
+insert 191
+erase 191 1
+empty 1
+size 0
+erase 191 0
+delete
+
+// erase() tests:
+// basic test
+new
+insert 0
+erase 0 1
+erase 0 0
+insert 56
+clear
+erase 56 0
+delete
+// overflow test:
+new: 3
+insert 0
+insert 1
+insert 2
+insert 3
+insert 4
+insert 5
+insert 6
+insert 7
+erase 34 0
+delete
+// wrap test:
+new: 3
+insert 0
+insert 256
+insert 512
+insert 1024
+insert 2048
+erase 2048 1
+delete
+
+// clear() tests:
+new
+insert 567
+insert 948
+erase 567 1
+clear
+size 0
+load_factor 0
+delete
+
+summary
+exit

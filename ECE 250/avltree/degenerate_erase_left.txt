@@ -1,0 +1,15 @@
+new
+insert 0 1
+insert -3 1
+insert 1 1
+insert -4 1
+insert -2 1
+insert 2 1
+insert -5 1
+insert -1 1
+erase 2 1
+erase 999 0
+delete
+summary
+exit
+

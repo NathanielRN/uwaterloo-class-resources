@@ -1,0 +1,395 @@
+/*****************************************
+ * Instructions
+ *  - Replace 'uwuserid' with your uWaterloo User ID
+ *  - Select the current calendar term and enter the year
+ *  - List students with whom you had discussions and who helped you
+ *
+ * uWaterloo User ID:  enruizno @uwaterloo.ca
+ * Submitted for ECE 250
+ * Department of Electrical and Computer Engineering
+ * University of Waterloo
+ * Calender Term of Submission:  (Winter) 2018
+ *
+ * By submitting this file, I affirm that
+ * I am the author of all modifications to
+ * the provided code.
+ *
+ * The following is a list of uWaterloo User IDs of those students
+ * I had discussions with in preparing this project:
+ *    gnardyee
+ *    chrlx8i
+ *
+ * The following is a list of uWaterloo User IDs of those students
+ * who helped me with this project (describe their help; e.g., debugging):
+ *    -
+ *****************************************/
+
+#ifndef WEIGHTED_GRAPH_H
+#define WEIGHTED_GRAPH_H
+
+#ifndef nullptr
+#define nullptr 0
+#endif
+
+#include <iostream>
+#include <limits>
+#include <cstring>
+#include "Exception.h"
+
+// include whatever classes you want
+
+
+class Weighted_graph {
+private:
+    // your implementation here
+    //  you can add both private member variables and private member functions
+
+    static const double INF;
+
+public:
+    Weighted_graph( int = 50 );
+    ~Weighted_graph();
+
+    int const numberOfVertices;
+    int edges_count;
+    int* vertex_degrees;
+    double* vertex_links;
+    unsigned char* has_link;
+
+    int currentNode;
+
+    int degree( int ) const;
+    int edge_count() const;
+    double adjacent( int, int ) const;
+    double distance( int, int );
+    void insert( int, int, double );
+    void destroy();
+
+    int* inOrderSwapArray;
+
+    int* vertexHeap;
+    int numberOfElementsInTheHeap;
+    int* vertexLocations;
+    double* vertexSmallestWeights;
+
+    int* vertexVisitHeap;
+    int verticesLeft;
+    int* unvisitedVerticesLocations;
+
+    int pop();
+    void heap_insert(int , double , double);
+
+    void pop_vertex(int);
+
+    void add_surrounding_weights(double);
+    void reset_distance();
+    int check_connection(int, double);
+    int grabFromVertexHeap(int);
+    int checkIfHasEdge(size_t) const;
+    double getWeightToBeAddedFromLargeArray(size_t) const;
+    size_t index( int ) const;
+
+    int vertexToCheck;
+    size_t toVertexConnection;
+    double addWeight;
+    int lastStartVertex;
+
+    int minIndex;
+    int maxIndex;
+    bool didInsert;
+
+    // Friends
+
+    friend std::ostream &operator<<( std::ostream &, Weighted_graph const & );
+};
+
+const double Weighted_graph::INF = std::numeric_limits<double>::infinity();
+
+// Your implementation here
+
+Weighted_graph::Weighted_graph(int n):
+        numberOfVertices((n < 1) ? 1 : n),
+        edges_count(0),
+        currentNode(0),
+        lastStartVertex(-1),
+        didInsert(false)
+{
+    int linkLength = numberOfVertices*numberOfVertices;
+    inOrderSwapArray = new int[numberOfVertices+1];
+
+    unvisitedVerticesLocations = new int[numberOfVertices];
+    vertexVisitHeap = new int[numberOfVertices+1];
+    vertex_degrees = new int[numberOfVertices];
+    vertex_links = new double[linkLength];
+    has_link = new unsigned char[linkLength];
+    vertexHeap = new int[numberOfVertices+1];
+    vertexLocations = new int[numberOfVertices];
+    vertexSmallestWeights = new double[numberOfVertices];
+    for(int i = 0; i <= numberOfVertices; i++) {
+        inOrderSwapArray[i] = i;
+    }
+    std::memset(&vertex_links[0], 0, linkLength* sizeof(double));
+    std::memset(&has_link[0], 0, linkLength* sizeof(unsigned char));
+    std::memset(&vertex_degrees[0], 0, numberOfVertices * sizeof(int));
+    std::memset(&vertexHeap[1], 0, numberOfVertices * sizeof(int));
+}
+
+Weighted_graph::~Weighted_graph() {
+    delete[] vertex_links;
+    delete[] has_link;
+    delete[] vertex_degrees;
+    delete[] vertexHeap;
+    delete[] vertexLocations;
+    delete[] vertexSmallestWeights;
+    delete[] vertexVisitHeap;
+    delete[] unvisitedVerticesLocations;
+
+    delete[] inOrderSwapArray;
+}
+
+int Weighted_graph::degree( int i ) const {
+    return vertex_degrees[i];
+}
+
+int Weighted_graph::edge_count() const {
+    return edges_count;
+}
+
+double Weighted_graph::adjacent( int m, int n ) const {
+    if (m < 0 || n < 0 || m > numberOfVertices - 1 || n > numberOfVertices - 1) {
+        throw illegal_argument();
+    } else if (m == n) {
+        return 0;
+    }
+
+    double const weight = vertex_links[m*numberOfVertices + n];
+    if (!weight) {
+        return INF;
+    }
+    return weight;
+}
+
+void Weighted_graph::reset_distance() {
+    verticesLeft = numberOfVertices;
+    numberOfElementsInTheHeap = 0;
+    std::memcpy(&vertexVisitHeap[1], &inOrderSwapArray[0], numberOfVertices* sizeof(int));
+    std::memset(&vertexLocations[0], 0, numberOfVertices * sizeof(int));
+    std::memcpy(&unvisitedVerticesLocations[0], &inOrderSwapArray[1], numberOfVertices * sizeof(int));
+    std::memset(&vertexSmallestWeights[0], 0, numberOfVertices* sizeof(double));
+    didInsert = false;
+}
+
+void Weighted_graph::add_surrounding_weights(double distanceToGetHere) {
+
+    int const numberOfDegrees = vertex_degrees[currentNode];
+    int foundLinks = 0;
+    for(int i = 1; i <= verticesLeft; i++) {
+        if (check_connection(i, distanceToGetHere)) {
+            foundLinks++;
+            if (foundLinks == numberOfDegrees) {
+                break;
+            }
+        }
+    }
+}
+
+int Weighted_graph::check_connection(int i, double distanceToGetHere) {
+    vertexToCheck = grabFromVertexHeap(i);
+    toVertexConnection = index(vertexToCheck);
+    if(checkIfHasEdge(toVertexConnection)) {
+        addWeight = getWeightToBeAddedFromLargeArray(toVertexConnection);
+        heap_insert(vertexToCheck, distanceToGetHere, addWeight);
+        return 1;
+    }
+    return 0;
+}
+
+int Weighted_graph::checkIfHasEdge(size_t toVertexConnection) const {
+    return has_link[toVertexConnection];
+}
+
+double Weighted_graph::getWeightToBeAddedFromLargeArray(size_t toVertexConnection) const {
+    return vertex_links[toVertexConnection];
+}
+
+int Weighted_graph::grabFromVertexHeap(int i) {
+    return vertexVisitHeap[i];
+}
+
+size_t Weighted_graph::index(int x) const {
+    return x + size_t(numberOfVertices) * currentNode;
+}
+
+
+double Weighted_graph::distance( int m, int n) {
+    minIndex = std::min(m, n);
+    maxIndex = (minIndex == m) ? n : m;
+    if (minIndex < 0 || maxIndex > numberOfVertices - 1) {
+        throw illegal_argument();
+    } else if (m == n) {
+        return 0;
+    }
+
+    if (lastStartVertex == minIndex) {
+        if (unvisitedVerticesLocations[maxIndex] == -1 || currentNode == maxIndex) {
+            return vertexSmallestWeights[maxIndex];
+        } else if (!numberOfElementsInTheHeap) {
+            return INF;
+        }
+    } else {
+        currentNode = minIndex;
+        lastStartVertex = currentNode;
+        reset_distance();
+        heap_insert(currentNode, 0, 0);
+    }
+
+    while(true) {
+        double const distanceToGetHere = vertexSmallestWeights[pop()];
+        pop_vertex(currentNode);
+
+        add_surrounding_weights(distanceToGetHere);
+
+        if (!numberOfElementsInTheHeap) {
+            vertexSmallestWeights[maxIndex] = INF;
+            unvisitedVerticesLocations[maxIndex] = -1;
+            return INF;
+        }
+
+        currentNode = vertexHeap[1];
+
+        if (currentNode == maxIndex) {
+            return vertexSmallestWeights[maxIndex];
+        }
+    }
+}
+
+void Weighted_graph::heap_insert(int destinationVertex, double distanceToGetHere, double extraWeight) {
+    int currentPlace;
+    double currentVertexWeight = vertexSmallestWeights[destinationVertex];
+    double totalDistance = distanceToGetHere + extraWeight;
+    if (!currentVertexWeight) {
+        numberOfElementsInTheHeap++;
+        currentPlace = numberOfElementsInTheHeap;
+        vertexLocations[destinationVertex] = numberOfElementsInTheHeap;
+    } else {
+        if (totalDistance >= currentVertexWeight) {
+            return;
+        }
+        currentPlace = vertexLocations[destinationVertex];
+    }
+    int parent;
+    int parentVertex;
+    while (true) {
+        parent = currentPlace >> 1;
+        parentVertex = vertexHeap[parent];
+        // Vertex weights can't be 0 here because we wouldn't put 0 into the heap
+        if (currentPlace == 1 || vertexSmallestWeights[parentVertex] < totalDistance) {
+            vertexHeap[currentPlace] = destinationVertex;
+            vertexSmallestWeights[destinationVertex] = totalDistance;
+            vertexLocations[destinationVertex] = currentPlace;
+            return;
+        }
+        vertexLocations[parentVertex] = currentPlace;
+        vertexHeap[currentPlace] = parentVertex;
+        currentPlace = parent;
+    }
+}
+
+void Weighted_graph::pop_vertex(int v) {
+    int currentLocation = unvisitedVerticesLocations[v];
+    int backElement = vertexVisitHeap[verticesLeft];
+    vertexVisitHeap[currentLocation] = backElement;
+    unvisitedVerticesLocations[backElement] = currentLocation;
+    unvisitedVerticesLocations[v] = -1;
+    verticesLeft--;
+}
+
+int Weighted_graph::pop() {
+    int const minVertex = vertexHeap[1];
+    if (numberOfElementsInTheHeap == 1) {
+        numberOfElementsInTheHeap--;
+        return minVertex;
+    }
+    int const elementAtTheBack = vertexHeap[numberOfElementsInTheHeap];
+    double const pushSize = vertexSmallestWeights[elementAtTheBack];
+    int k = 1;
+    int first_child = k << 1;
+    while (true) {
+        // Needs to be at the top here to catch first edge case
+        if (first_child >= numberOfElementsInTheHeap) {
+            break;
+        }
+        int const second_child_index = first_child | 1;
+        int const left_child = vertexHeap[first_child];
+        double const left_weight = vertexSmallestWeights[left_child];
+        int const right_child = vertexHeap[first_child | 1];
+        double const right_weight = vertexSmallestWeights[right_child];
+
+        if (left_weight >
+            right_weight) {
+            if (pushSize > right_weight) {
+                vertexLocations[right_child] = k;
+                vertexHeap[k] = right_child;
+                k = second_child_index;
+                first_child = k << 1;
+            } else {
+                break;
+            }
+        } else {
+            if (pushSize > left_weight) {
+                vertexLocations[left_child] = k;
+                vertexHeap[k] = left_child;
+                k = first_child;
+                first_child = k << 1;
+            } else {
+                break;
+            }
+        }
+    }
+    vertexHeap[k] = elementAtTheBack;
+    vertexLocations[elementAtTheBack] = k;
+    numberOfElementsInTheHeap--;
+    return minVertex;
+}
+
+void Weighted_graph::insert( int m, int n, double w ) {
+    if (w <= 0 || m == n || m < 0 || n < 0 || m > numberOfVertices - 1 || n > numberOfVertices - 1) {
+        throw illegal_argument();
+    }
+    if (!didInsert) {
+        reset_distance();
+        lastStartVertex = -1;
+        didInsert = true;
+    }
+
+    if (vertex_links[m*numberOfVertices + n] == 0) {
+        edges_count++;
+        vertex_degrees[m]++;
+        vertex_degrees[n]++;
+    }
+    int firstLocation = m*numberOfVertices + n;
+    int secondLocation = n*numberOfVertices + m;
+
+    has_link[firstLocation] = 1;
+    has_link[secondLocation] = 1;
+    vertex_links[firstLocation] = w;
+    vertex_links[secondLocation] = w;
+}
+
+void Weighted_graph::destroy() {
+    edges_count = 0;
+    std::memset(&vertex_degrees[0], 0, numberOfVertices * sizeof(int));
+    std::memset(&vertex_links[0], 0, (numberOfVertices*numberOfVertices)* sizeof(double));
+    std::memset(&has_link[0], 0, (numberOfVertices*numberOfVertices)* sizeof(unsigned char));
+}
+
+// You can modify this function however you want:  it will not be tested
+
+std::ostream &operator<<( std::ostream &out, Weighted_graph const &graph ) {
+    return out;
+}
+
+// Is an error showing up in ece250.h or elsewhere?
+// Did you forget a closing '}' ?
+
+#endif

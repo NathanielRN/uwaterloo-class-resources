@@ -1,0 +1,299 @@
+// Constructor & Deconstructor
+new: 3
+capacity 8
+size 0
+delete
+
+new
+capacity 32
+size 0
+delete
+
+new: 10
+capacity 1024
+size 0
+delete
+
+summary
+
+//Accessors
+// -> Size
+new: 4
+capacity 16
+insert 5
+size 1
+insert 4
+size 2
+insert 4
+size 2
+insert 1
+size 3
+insert 0
+insert 7
+insert 8
+insert 9
+insert 1000001
+insert 6
+insert 11
+insert 12
+insert 13
+insert 14
+size 13
+insert 15
+insert 16
+insert 19
+size 16
+insert! 17
+capacity 16
+delete
+
+// -> Capacity
+new: 3
+capacity 8
+insert 2
+insert 8
+insert 9
+size 3
+capacity 8
+insert 1
+insert 3
+insert 4 insert 11
+insert 12
+size 8
+capacity 8
+insert! 5
+insert! 2
+insert! 27
+erase 9 1
+insert 7
+capacity 8
+size 8
+delete
+
+// -> Load Factor
+new: 3
+size 0
+capacity 8
+insert 1
+size 1
+capacity 8
+load_factor 0.125
+insert 2
+load_factor 0.25
+insert 3
+size 3
+capacity 8
+load_factor 0.375
+insert 4
+insert 5
+insert 6
+insert 7
+insert 8
+size 8
+capacity 8
+load_factor 1
+erase 3 1
+insert 0
+size 8
+insert! 23
+load_factor 1
+capacity 8
+delete
+
+// -> empty
+new: 3
+empty 1
+insert 1
+empty 0
+size 1
+capacity 8
+insert 4
+insert 2
+insert 3
+insert 0
+insert 5
+insert 6
+insert 7
+size 8
+capacity 8
+load_factor 1
+empty 0
+erase 0 1
+size 7
+empty 0
+delete
+
+// -> member
+new: 3
+insert 3
+member 3 1
+member 2 0
+erase 1 0
+erase 3 1
+member 3 0
+delete
+
+// -> bin
+new: 3
+insert 4
+bin 4 4
+insert 0
+bin 0 0
+erase 0 1
+insert 32
+bin 0 32
+insert 33
+bin 1 33
+delete
+
+// -> Insert
+new: 3
+size 0
+capacity 8
+insert 8
+bin 0 8
+insert 16
+size 2
+member 8 1
+member 16 1
+erase 8 1
+member 8 0
+member 16 1
+size 1
+empty 0
+bin 1 16
+load_factor 0.25
+erase 16 1
+load_factor 0.25
+member 16 0
+load_factor 0.25
+empty 1
+size 0
+capacity 8
+delete
+
+new: 2
+size 0
+capacity 4
+insert 3
+insert 4
+insert 5
+insert 6
+insert! 7
+size 4
+capacity 4
+load_factor 1
+insert! 3
+insert! 4
+insert! 5
+erase 3 1
+size 3
+capacity 4
+load_factor 1
+insert 4
+insert 5
+insert 6
+size 3
+capacity 4
+insert 20
+size 4
+capacity 4
+load_factor 1
+delete
+
+new: 2
+size 0
+capacity 4
+insert 0
+insert 4
+insert 8
+insert 16
+insert! 20
+bin 0 0
+bin 1 4
+// Important quadratic jumping test
+bin 2 16
+bin 3 8
+member 8 1
+member 16 1
+size 4
+capacity 4
+erase 4 1
+load_factor 1
+size 3
+capacity 4
+insert 20
+size 4
+capacity 4
+delete
+
+// -> erase
+new: 2
+size 0
+capacity 4
+insert 0
+insert 4
+insert 8
+insert 16
+insert! 20
+bin 0 0
+bin 1 4
+// Important quadratic jumping test
+bin 2 16
+bin 3 8
+member 8 1
+member 16 1
+size 4
+capacity 4
+erase 16 1
+member 16 0
+size 3
+capacity 4
+bin 3 8
+bin 1 4
+bin 0 0
+load_factor 1
+erase 4 1
+erase 0 1
+erase 8 1
+size 0
+capacity 4
+load_factor 1
+erase 8 0
+erase 4 0
+erase 0 0
+delete
+
+// -> clear
+new: 2
+empty 1
+size 0
+capacity 4
+load_factor 0
+insert 0
+empty 0
+insert 4
+insert 8
+insert 16
+load_factor 1
+insert! 20
+insert! 0
+insert! 88
+erase 7 0
+erase 8 1
+load_factor 1
+size 3
+capacity 4
+insert 7
+size 4
+empty 0
+capacity 4
+clear
+load_factor 0
+size 0
+capacity 4
+empty 1
+delete
+
+summary
+exit

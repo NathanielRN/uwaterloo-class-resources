@@ -1,0 +1,13 @@
+new
+insert 31
+insert 191
+bin 31 31
+bin 0 191
+insert 159
+bin 2 159
+erase 111 0
+erase 159 1
+member 159 0
+size 2
+delete
+summary

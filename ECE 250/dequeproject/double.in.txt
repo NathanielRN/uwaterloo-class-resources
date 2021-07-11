@@ -1,0 +1,20 @@
+new
+pop_front!
+empty 1
+size 0
+push_front 56
+push_front 78
+push_front 90
+back 56
+pop_back
+push_front 123.3
+back 78
+pop_back
+back 90
+pop_back
+front 123.3
+back 123.3
+pop_back
+front! 
+delete
+summary
